@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-16T13:19:11 GMT+05:30" name="Default suite" finished-at="2024-10-16T13:20:28 GMT+05:30" duration-ms="77249">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-16T13:19:11 GMT+05:30" name="Default test" finished-at="2024-10-16T13:20:28 GMT+05:30" duration-ms="77249">
+      <class name="com.script.runner.ExternalToolRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:19:11 GMT+05:30" name="setUpClass" finished-at="2024-10-16T13:19:11 GMT+05:30" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:19:11 GMT+05:30" name="BeforeTest" finished-at="2024-10-16T13:19:11 GMT+05:30" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:19:11 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-16T13:19:45 GMT+05:30" duration-ms="34047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ExternalTool - To verify that user should be able to open schematics page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Scenarios for Enhanced Draw Tool]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:19:45 GMT+05:30" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-16T13:20:28 GMT+05:30" duration-ms="42521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ExternalTool - To verify that user should be able to select BU Segment and Pipeline to see the Schematics"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Scenarios for Enhanced Draw Tool]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:20:28 GMT+05:30" name="tearDownClass" finished-at="2024-10-16T13:20:28 GMT+05:30" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="SendEmail()[pri:0, instance:com.script.runner.ExternalToolRunner@c333c60]" started-at="2024-10-16T13:20:28 GMT+05:30" name="SendEmail" finished-at="2024-10-16T13:20:34 GMT+05:30" duration-ms="6396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendEmail -->
+      </class> <!-- com.script.runner.ExternalToolRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

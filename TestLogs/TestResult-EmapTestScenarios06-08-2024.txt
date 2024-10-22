@@ -1,0 +1,28 @@
+
+***************TestResults Fornull***************
+06-08-2024 17-36-51 Application successfully.
+06-08-2024 17-36-57 Button - OK is clicked
+06-08-2024 17-36-58 Button - CrossIconAboutTool is clicked
+06-08-2024 17-36-58 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+06-08-2024 17-37-01 SearchIcon is clicked
+06-08-2024 17-37-03 SearchResult is clicked
+06-08-2024 17-37-04 Clear Search is clicked
+06-08-2024 17-37-18 Button - Add is clicked
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+06-08-2024 17-37-31 Application successfully.
+06-08-2024 17-37-35 Button - OK is clicked
+06-08-2024 17-37-35 Button - CrossIconAboutTool is clicked
+***************TestResults Fornull***************
+06-08-2024 17-38-11 Application successfully.
+06-08-2024 17-38-14 Button - OK is clicked
+06-08-2024 17-38-15 Button - CrossIconAboutTool is clicked
+06-08-2024 17-38-15 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+06-08-2024 17-38-18 SearchIcon is clicked
+06-08-2024 17-38-18 SearchResult is clicked
+06-08-2024 17-38-21 Clear Search is clicked
+06-08-2024 17-38-30 Button - Add is clicked
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+06-08-2024 17-38-40 Application successfully.
+06-08-2024 17-38-43 Button - OK is clicked
+06-08-2024 17-38-44 Button - CrossIconAboutTool is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

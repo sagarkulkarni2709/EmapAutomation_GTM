@@ -1,0 +1,90 @@
+
+***************TestResults Fornull***************
+04-10-2024 15-21-32 Application successfully.
+04-10-2024 15-21-36 Button - OK is clicked
+04-10-2024 15-21-37 Button - CrossIconAboutTool is clicked
+04-10-2024 15-21-38 Option - LayerListtool is clicked
+04-10-2024 15-21-39 Button - Add is clicked
+04-10-2024 15-21-40 Bookmark Name input field is populated with value : Test
+04-10-2024 15-21-40 CrossIcon - Bookmark tool is clicked
+04-10-2024 15-21-40 Home button is clicked
+04-10-2024 15-21-41 Option - LayerONOFF is clicked
+04-10-2024 15-21-48 Option - Bookmark Tool is clicked
+04-10-2024 15-21-53 Title bookmark is clicked
+04-10-2024 15-21-59 CrossIcon - Bookmark tool is clicked
+04-10-2024 15-22-01 Option - LayerONOFF is clicked
+***************TestResults Fornull***************
+04-10-2024 15-22-13 Application successfully.
+04-10-2024 15-22-17 Button - OK is clicked
+04-10-2024 15-22-18 Button - CrossIconAboutTool is clicked
+04-10-2024 15-22-19 Option - LayerListtool is clicked
+04-10-2024 15-22-20 Button - Add is clicked
+04-10-2024 15-22-21 Bookmark Name input field is populated with value : Test
+04-10-2024 15-22-22 CrossIcon - Bookmark tool is clicked
+04-10-2024 15-22-23 Option - Bookmark Tool is clicked
+04-10-2024 15-22-32 Delete button is clicked
+04-10-2024 15-22-39 CrossIcon - Bookmark tool is clicked
+***************TestResults Fornull***************
+04-10-2024 15-22-50 Application successfully.
+04-10-2024 15-22-54 Button - OK is clicked
+04-10-2024 15-22-55 Button - CrossIconAboutTool is clicked
+04-10-2024 15-22-55 Option - LayerListtool is clicked
+04-10-2024 15-22-56 Button - Add is clicked
+04-10-2024 15-22-57 Bookmark Name input field is populated with value : Test
+04-10-2024 15-22-57 CrossIcon - Bookmark tool is clicked
+04-10-2024 15-22-58 Option - Bookmark Tool is clicked
+04-10-2024 15-22-59 Bookmark Name input field is populated with value : Test1
+04-10-2024 15-23-01 CrossIcon - Bookmark tool is clicked
+04-10-2024 15-23-03 Option - Bookmark Tool is clicked
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+04-10-2024 15-23-18 Application successfully.
+04-10-2024 15-23-22 Button - OK is clicked
+04-10-2024 15-23-22 Button - CrossIconAboutTool is clicked
+04-10-2024 15-23-22 Option - LayerListtool is clicked
+04-10-2024 15-23-23 Option - LayerONOFF is clicked
+04-10-2024 15-23-24 Option - Turn All Layer ON is clicked
+04-10-2024 15-23-25 Option - LayerONOFF is clicked
+04-10-2024 15-23-28 Option - LayerListtool is clicked
+04-10-2024 15-23-29 Option - LayerListtool is clicked
+04-10-2024 15-23-30 Option - LayerONOFF is clicked
+04-10-2024 15-23-33 Option - Turn All Layer OFF is clicked
+04-10-2024 15-23-35 Option - LayerListtool is clicked
+04-10-2024 15-23-42 Option - LayerONOFF is clicked
+***************TestResults ForLayerListTool - To verify that user should be able use the popup menu options like Zoom In and Enable/Diable popup of Layer list tool***************
+04-10-2024 15-23-58 Application successfully.
+04-10-2024 15-24-02 Button - OK is clicked
+04-10-2024 15-24-02 Button - CrossIconAboutTool is clicked
+04-10-2024 15-24-02 Option - LayerListtool is clicked
+04-10-2024 15-24-03 Popup menu button is clicked
+04-10-2024 15-24-04 Option-Diable popup is clicked
+04-10-2024 15-24-04 Option - LayerListtool is clicked
+04-10-2024 15-24-07 Option - LayerONOFF is clicked
+04-10-2024 15-24-12 Option - LayerListtool is clicked
+04-10-2024 15-24-15 Popup menu button is clicked
+04-10-2024 15-24-19 Option-Enable popup is clicked
+04-10-2024 15-24-21 Option - LayerListtool is clicked
+04-10-2024 15-24-23 Option - LayerONOFF is clicked
+04-10-2024 15-24-29 Option - LayerListtool is clicked
+04-10-2024 15-24-29 Option - LayerONOFF is clicked
+04-10-2024 15-24-30 Option - Turn All Layer ON is clicked
+04-10-2024 15-24-31 Popup menu button is clicked
+04-10-2024 15-24-32 Popup option Zoom To is clicked
+04-10-2024 15-24-35 Option Home is clicked
+04-10-2024 15-24-35 Popup menu button is clicked
+04-10-2024 15-24-37 Option - Transperancy is clicked
+04-10-2024 15-24-39 Option - Slider is clicked
+04-10-2024 15-24-43 Popup menu button is clicked
+04-10-2024 15-24-43 Option - Transperancy is clicked
+04-10-2024 15-24-55 Popup menu button is clicked
+04-10-2024 15-24-56 Option - Transperancy is clicked
+04-10-2024 15-24-56 Option - Transperancy is clicked
+***************TestResults ForLayerListTool - To verify that user should be able use the popup menu options like expand and collapsed all layers***************
+04-10-2024 15-25-09 Application successfully.
+04-10-2024 15-25-14 Button - OK is clicked
+04-10-2024 15-25-14 Button - CrossIconAboutTool is clicked
+04-10-2024 15-25-14 Option - LayerListtool is clicked
+04-10-2024 15-25-15 Option - LayerONOFF is clicked
+04-10-2024 15-25-15 Option - Expand All Layers is clicked
+04-10-2024 15-25-19 Option - LayerONOFF is clicked
+04-10-2024 15-25-19 Option - Collapse All Layers is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+12-08-2024 21-37-41 Application successfully.
+12-08-2024 21-37-44 Button - OK is clicked
+12-08-2024 21-37-44 Button - CrossIconAboutTool is clicked
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+12-08-2024 21-38-21 Application successfully.
+12-08-2024 21-38-25 Button - OK is clicked
+12-08-2024 21-38-25 Button - CrossIconAboutTool is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

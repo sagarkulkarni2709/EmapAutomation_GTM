@@ -1,0 +1,20 @@
+
+***************TestResults Fornull***************
+05-08-2024 18-57-55 Application successfully.
+05-08-2024 18-58-02 Button - OK is clicked
+05-08-2024 18-58-02 Button - CrossIconAboutTool is clicked
+05-08-2024 18-58-03 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+05-08-2024 18-58-06 SearchIcon is clicked
+05-08-2024 18-58-09 SearchResult is clicked
+05-08-2024 18-58-10 Clear Search is clicked
+05-08-2024 18-58-26 Button - Add is clicked
+***************TestResults Fornull***************
+05-08-2024 18-58-42 Application successfully.
+05-08-2024 18-58-47 Button - OK is clicked
+05-08-2024 18-58-47 Button - CrossIconAboutTool is clicked
+05-08-2024 18-58-48 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+05-08-2024 18-58-50 SearchIcon is clicked
+05-08-2024 18-58-54 SearchResult is clicked
+05-08-2024 18-58-54 Clear Search is clicked
+05-08-2024 18-59-14 Button - Add is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

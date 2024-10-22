@@ -1,0 +1,50 @@
+
+***************TestResults ForImageryTool - To verify that user can select basemap from basemap gallery and as per the selection basemap should be changed***************
+02-07-2024 16-51-28 Application successfully.
+02-07-2024 16-51-31 Button - OK is clicked
+02-07-2024 16-51-31 Button - CrossIconAboutTool is clicked
+02-07-2024 16-51-33 Option - LayerListtool is clicked
+02-07-2024 16-51-34 Icon - basemapgallery is clicked
+02-07-2024 16-51-35 Basemap - Bing Roads is clicked
+02-07-2024 16-51-37 Basemap - Streets is clicked
+02-07-2024 16-51-42 Basemap - Bing Aerial is clicked
+02-07-2024 16-51-45 Basemap - Bing AerialLabel is clicked
+02-07-2024 16-51-47 Basemap - WorldTopo is clicked
+02-07-2024 16-51-50 Basemap - USATopo is clicked
+02-07-2024 16-51-52 Basemap - LightGrayCanvas is clicked
+02-07-2024 16-51-54 Basemap - DarkGrayCanvas is clicked
+02-07-2024 16-51-56 Basemap - Oceans is clicked
+02-07-2024 16-51-58 Basemap - OpenStreetMap is clicked
+***************TestResults ForImageryTool - User can open streetview by setting coordinates on map from streetviewAerial widget***************
+02-07-2024 16-52-07 Application successfully.
+02-07-2024 16-52-10 Button - OK is clicked
+02-07-2024 16-52-10 Button - CrossIconAboutTool is clicked
+02-07-2024 16-52-12 Option - LayerListtool is clicked
+02-07-2024 16-52-13 Icon - basemapgallery is clicked
+02-07-2024 16-52-13 Plot - Line Feature is clicked
+02-07-2024 16-52-15 Button - Openstreetview is clicked
+02-07-2024 16-52-33 Button - Openstreetview is clicked
+***************TestResults ForImageryTool - To verify that user can open pictometry and can see the pictures in widget by plotting point on map***************
+02-07-2024 16-52-47 Application successfully.
+02-07-2024 16-52-51 Button - OK is clicked
+02-07-2024 16-52-51 Button - CrossIconAboutTool is clicked
+02-07-2024 16-52-54 Option - LayerListtool is clicked
+02-07-2024 16-52-54 Search Box input field is populated with value : Tennessee
+02-07-2024 16-52-57 SearchIcon is clicked
+02-07-2024 16-53-05 SearchResult is clicked
+02-07-2024 16-53-06 Clear Search is clicked
+02-07-2024 16-53-09 Icon - Pictometry is clicked
+02-07-2024 16-53-16 Button - Close is clicked
+02-07-2024 16-53-16 Plot - Line Feature is clicked
+***************TestResults ForImageryTool - To verify that user can open Maxar Imagery tool and can add the layer to map***************
+02-07-2024 16-53-30 Application successfully.
+02-07-2024 16-53-33 Button - OK is clicked
+02-07-2024 16-53-33 Button - CrossIconAboutTool is clicked
+02-07-2024 16-53-36 Option - LayerListtool is clicked
+02-07-2024 16-53-36 Search Box input field is populated with value : Tennessee
+02-07-2024 16-53-39 SearchIcon is clicked
+02-07-2024 16-53-46 SearchResult is clicked
+02-07-2024 16-53-48 Clear Search is clicked
+02-07-2024 16-53-49 Icon - Maxar Imagery is clicked
+02-07-2024 16-54-02 Button - Close is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

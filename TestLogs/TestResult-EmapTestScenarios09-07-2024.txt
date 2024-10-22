@@ -1,0 +1,45 @@
+
+***************TestResults Fornull***************
+09-07-2024 20-43-33 Application successfully.
+09-07-2024 20-43-36 Button - OK is clicked
+09-07-2024 20-43-36 Button - CrossIconAboutTool is clicked
+09-07-2024 20-43-37 Search Box input field is populated with value : Houston Intercontinental Airport, 2800 Terminal Rd N, Houston, TX, 77032, USA
+09-07-2024 20-43-39 SearchIcon is clicked
+09-07-2024 20-43-46 SearchResult is clicked
+09-07-2024 20-43-46 Clear Search is clicked
+09-07-2024 20-43-51 Option - LayerListtool is clicked
+09-07-2024 20-43-53 Button - Add is clicked
+09-07-2024 20-43-54 Bookmark Name input field is populated with value : Test
+09-07-2024 20-43-55 CrossIcon - Bookmark tool is clicked
+09-07-2024 20-43-56 Home button is clicked
+09-07-2024 20-43-58 Option - LayerONOFF is clicked
+09-07-2024 20-44-06 Option - Bookmark Tool is clicked
+09-07-2024 20-44-08 Title bookmark is clicked
+09-07-2024 20-44-08 CrossIcon - Bookmark tool is clicked
+09-07-2024 20-44-10 Option - LayerONOFF is clicked
+***************TestResults ForImageryTool - To verify that user can select basemap from basemap gallery and as per the selection basemap should be changed***************
+09-07-2024 20-44-24 Application successfully.
+09-07-2024 20-44-28 Button - OK is clicked
+09-07-2024 20-44-28 Button - CrossIconAboutTool is clicked
+09-07-2024 20-44-30 Option - LayerListtool is clicked
+09-07-2024 20-44-31 Icon - basemapgallery is clicked
+09-07-2024 20-44-32 Basemap - Bing Roads is clicked
+09-07-2024 20-44-35 Basemap - Streets is clicked
+09-07-2024 20-44-38 Basemap - Bing Aerial is clicked
+09-07-2024 20-44-41 Basemap - Bing AerialLabel is clicked
+09-07-2024 20-44-43 Basemap - WorldTopo is clicked
+09-07-2024 20-44-46 Basemap - USATopo is clicked
+09-07-2024 20-44-49 Basemap - LightGrayCanvas is clicked
+09-07-2024 20-44-51 Basemap - DarkGrayCanvas is clicked
+09-07-2024 20-44-52 Basemap - Oceans is clicked
+09-07-2024 20-44-54 Basemap - OpenStreetMap is clicked
+***************TestResults ForImageryTool - User can open streetview by setting coordinates on map from streetviewAerial widget***************
+09-07-2024 20-45-04 Application successfully.
+09-07-2024 20-45-07 Button - OK is clicked
+09-07-2024 20-45-07 Button - CrossIconAboutTool is clicked
+09-07-2024 20-45-09 Option - LayerListtool is clicked
+09-07-2024 20-45-10 Icon - basemapgallery is clicked
+09-07-2024 20-45-10 Plot - Line Feature is clicked
+09-07-2024 20-45-13 Button - Openstreetview is clicked
+09-07-2024 20-45-34 Button - Openstreetview is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

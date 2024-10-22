@@ -1,0 +1,18 @@
+
+***************TestResults ForImageryTool - To verify that user can select basemap from basemap gallery and as per the selection basemap should be changed***************
+11-07-2024 16-50-17 Application successfully.
+11-07-2024 16-50-22 Button - OK is clicked
+11-07-2024 16-50-22 Button - CrossIconAboutTool is clicked
+11-07-2024 16-50-25 Option - LayerListtool is clicked
+11-07-2024 16-50-26 Icon - basemapgallery is clicked
+11-07-2024 16-50-27 Basemap - Bing Roads is clicked
+11-07-2024 16-50-29 Basemap - Streets is clicked
+11-07-2024 16-50-31 Basemap - Bing Aerial is clicked
+11-07-2024 16-50-33 Basemap - Bing AerialLabel is clicked
+11-07-2024 16-50-36 Basemap - WorldTopo is clicked
+11-07-2024 16-50-39 Basemap - USATopo is clicked
+11-07-2024 16-50-42 Basemap - LightGrayCanvas is clicked
+11-07-2024 16-50-45 Basemap - DarkGrayCanvas is clicked
+11-07-2024 16-50-47 Basemap - Oceans is clicked
+11-07-2024 16-50-50 Basemap - OpenStreetMap is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

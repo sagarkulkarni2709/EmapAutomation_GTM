@@ -1,0 +1,743 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< EMAP_UI_Automation-GTM:EMAP_UI_Automation-GTM >------------
+[INFO] Building EMAP_UI_Automation-GTM 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/10.0.2/messages-10.0.2.pom
+[WARNING] The POM for io.cucumber:messages:jar:10.0.2 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EMAP_UI_Automation-GTM ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ EMAP_UI_Automation-GTM ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EMAP_UI_Automation-GTM ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ EMAP_UI_Automation-GTM ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ EMAP_UI_Automation-GTM ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.script.runner.AllToolsRunner
+
+@Regressiontest
+Scenario Outline: Appdata Tool - To verify that user should be able to add data from a web URL in Appdata tool # Features/Appdata.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Appdata Tool SheetName "AppdataTool" and rownumber 0            # com.script.stepdefination.AppdataToolStepDefinition.LaunchApplication(java.lang.String,int)
+      java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at com.utilities.TestResultScreenshot.capture(TestResultScreenshot.java:15)
+	at com.utilities.TestResults.PrintFailResultToReport(TestResults.java:89)
+	at com.utilities.TestInitializer.LaunchBrowser(TestInitializer.java:124)
+	at com.script.stepdefination.AppdataToolStepDefinition.LaunchApplication(AppdataToolStepDefinition.java:32)
+	at ✽.Application is launched in browser for Appdata Tool SheetName "AppdataTool" and rownumber 0(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/Appdata.feature:6)
+
+  When Appdata tool is clicked and tool is opened                                                              # com.script.stepdefination.AppdataToolStepDefinition.ClickSelectTool()
+  Then User should be able to add data from a web URL in Appdata tool SheetName "AppdataTool" and rownumber 0  # com.script.stepdefination.AppdataToolStepDefinition.AddDataFromWebURL(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: Appdata Tool - To verify that user should be able to add data using serach section in Appdata tool # Features/Appdata.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Appdata Tool SheetName "AppdataTool" and rownumber 1                  # com.script.stepdefination.AppdataToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Appdata tool is clicked and tool is opened                                                                    # com.script.stepdefination.AppdataToolStepDefinition.ClickSelectTool()
+  Then User should be able to add data using serach section in Appdata tool SheetName "AppdataTool" and rownumber 1  # com.script.stepdefination.AppdataToolStepDefinition.AddDataFromSearch(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: To verify that user can add the bookmark                                            # Features/BookmarkTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Bookmark Tool SheetName "BookmarkTool" and rownumber 0 # com.script.stepdefination.BookmarkToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Bookmark tool is clicked and Bookmark tool is opened SheetName "BookmarkTool" and rownumber 0  # com.script.stepdefination.BookmarkToolStepDefinition.ClickBookmarkTool(java.lang.String,int)
+  Then User is able to add the bookmark                                                               # com.script.stepdefination.BookmarkToolStepDefinition.AddBookmark()
+
+@Regressiontest
+Scenario Outline: To verify that user can delete the bookmark                                         # Features/BookmarkTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Bookmark Tool SheetName "BookmarkTool" and rownumber 1 # com.script.stepdefination.BookmarkToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Bookmark tool is clicked and Bookmark tool is opened SheetName "BookmarkTool" and rownumber 1  # com.script.stepdefination.BookmarkToolStepDefinition.ClickBookmarkTool(java.lang.String,int)
+  Then User is able to delete the bookmark which is added                                             # com.script.stepdefination.BookmarkToolStepDefinition.DeleteBookmark()
+
+@Regressiontest
+Scenario Outline: To verify that user can edit the bookmark                                           # Features/BookmarkTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Bookmark Tool SheetName "BookmarkTool" and rownumber 2 # com.script.stepdefination.BookmarkToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Bookmark tool is clicked and Bookmark tool is opened SheetName "BookmarkTool" and rownumber 2  # com.script.stepdefination.BookmarkToolStepDefinition.ClickBookmarkTool(java.lang.String,int)
+  Then User is able to edit the bookmark which is added                                               # com.script.stepdefination.BookmarkToolStepDefinition.EditBookmark()
+
+@Regressiontest
+Scenario Outline: DirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Driving Time # Features/DirectionsTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tool SheetName "DirectionsTool" and rownumber 0                                                            # com.script.stepdefination.DirectionsToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Directions tool is clicked and tool is opened                                                                                                                 # com.script.stepdefination.DirectionsToolStepDefinition.ClickProximityTool()
+  Then User should be able to get direction between two locations using Directions tool and also able to get Driving Time SheetName "DirectionsTool" and rownumber 0 # com.script.stepdefination.DirectionsToolStepDefinition.DirectionForDrivingTime(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: DirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Rural Driving Time # Features/DirectionsTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tool SheetName "DirectionsTool" and rownumber 1                                                                  # com.script.stepdefination.DirectionsToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Directions tool is clicked and tool is opened                                                                                                                       # com.script.stepdefination.DirectionsToolStepDefinition.ClickProximityTool()
+  Then User should be able to get direction between two locations using Directions tool and also able to get Rural Driving Time SheetName "DirectionsTool" and rownumber 1 # com.script.stepdefination.DirectionsToolStepDefinition.DirectionRuralDrivingTime(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: DirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Walking Time # Features/DirectionsTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tool SheetName "DirectionsTool" and rownumber 2                                                            # com.script.stepdefination.DirectionsToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Directions tool is clicked and tool is opened                                                                                                                 # com.script.stepdefination.DirectionsToolStepDefinition.ClickProximityTool()
+  Then User should be able to get direction between two locations using Directions tool and also able to get Walking Time SheetName "DirectionsTool" and rownumber 2 # com.script.stepdefination.DirectionsToolStepDefinition.DirectionRuralWalkingTime(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Miles and also should be able to use profile result option # Features/ElevationProfileTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 0                                                                  # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                             # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Miles and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 0 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineMiles(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Kilometers and also should be able to use profile result option # Features/ElevationProfileTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 1                                                                       # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                                  # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Kilometers and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 1 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineKilometers(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Feet and also should be able to use profile result option # Features/ElevationProfileTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 2                                                                 # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                            # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Feet and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 2 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineFeet(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Feet US and also should be able to use profile result option # Features/ElevationProfileTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 3                                                                    # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                               # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Feet US and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 3 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineFeetUS(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Meters and also should be able to use profile result option # Features/ElevationProfileTool.feature:52
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 4                                                                   # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                              # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Meters and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 4 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineMeters(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Yards and also should be able to use profile result option # Features/ElevationProfileTool.feature:62
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 5                                                                  # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                             # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Yards and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 5 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineYards(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Nautical Miles and also should be able to use profile result option # Features/ElevationProfileTool.feature:72
+*******************Test Case started*******************************
+  Given Application is launched in browser for Elevation profile Tool SheetName "ElevationProfileTool" and rownumber 6                                                                           # com.script.stepdefination.ElevationProfileToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Elevation Profile tool is clicked and tool is opened                                                                                                                                      # com.script.stepdefination.ElevationProfileToolStepDefinition.ClickElevationProfileTool()
+  Then User should be able generate elevation profile with measurement unit Nautical Miles and also should be able to use profile result option SheetName "ElevationProfileTool" and rownumber 6 # com.script.stepdefination.ElevationProfileToolStepDefinition.ChangeUnitAndDrawLineNauticalMiles(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw point feature on map           # Features/EnhancedDrawTool.feature:14
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 0 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw point feature on map SheetName "EnhancedDrawTool" and rownumber 0           # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawPoint(java.lang.String,int)
+  And User should be able to edit the drawing details of point SheetName "EnhancedDrawTool" and rownumber 0    # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditPointDetails(java.lang.String,int)
+  And User should be able to delete the drawn point shape SheetName "EnhancedDrawTool" and rownumber 0         # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeletePointShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw line feature on map            # Features/EnhancedDrawTool.feature:26
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 1 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw line feature on map SheetName "EnhancedDrawTool" and rownumber 1            # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawLine(java.lang.String,int)
+  And User should be able to edit the drawing details of line SheetName "EnhancedDrawTool" and rownumber 1     # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditLineDetails(java.lang.String,int)
+  And User should be able to delete the drawn line shape SheetName "EnhancedDrawTool" and rownumber 1          # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteLinetShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw polyline feature on map        # Features/EnhancedDrawTool.feature:38
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 2 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw polyline feature on map SheetName "EnhancedDrawTool" and rownumber 2        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawPolyline(java.lang.String,int)
+  And User should be able to edit the drawing details of polyline SheetName "EnhancedDrawTool" and rownumber 2 # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditpolylineDetails(java.lang.String,int)
+  And User should be able to delete the drawn polyline shape SheetName "EnhancedDrawTool" and rownumber 2      # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeletepolylineShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Freehand polyline feature on map        # Features/EnhancedDrawTool.feature:50
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 3          # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                                 # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Freehand polyline feature on map SheetName "EnhancedDrawTool" and rownumber 3        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawFreehandPolyLine(java.lang.String,int)
+  And User should be able to edit the drawing details of Freehand polyline SheetName "EnhancedDrawTool" and rownumber 3 # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditFreehandpolylineDetails(java.lang.String,int)
+  And User should be able to delete the drawn Freehand polyline shape SheetName "EnhancedDrawTool" and rownumber 3      # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteFreehandpolylineShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Triangle feature on map        # Features/EnhancedDrawTool.feature:62
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 4 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Triangle feature on map SheetName "EnhancedDrawTool" and rownumber 4        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawTriangle(java.lang.String,int)
+  And User should be able to edit the drawing details of Triangle SheetName "EnhancedDrawTool" and rownumber 4 # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditTriangleDetails(java.lang.String,int)
+  And User should be able to delete the drawn Triangle shape SheetName "EnhancedDrawTool" and rownumber 4      # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteTriangleShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Extent feature on map          # Features/EnhancedDrawTool.feature:74
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 5 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Extent feature on map SheetName "EnhancedDrawTool" and rownumber 5          # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawExtent(java.lang.String,int)
+  And User should be able to edit the drawing details of Extent SheetName "EnhancedDrawTool" and rownumber 5   # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditExtentDetails(java.lang.String,int)
+  And User should be able to delete the drawn Extent shape SheetName "EnhancedDrawTool" and rownumber 5        # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteExtentShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Circle feature on map          # Features/EnhancedDrawTool.feature:86
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 6 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Circle feature on map SheetName "EnhancedDrawTool" and rownumber 6          # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawCircle(java.lang.String,int)
+  And User should be able to edit the drawing details of Circle SheetName "EnhancedDrawTool" and rownumber 6   # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditCircleDetails(java.lang.String,int)
+  And User should be able to delete the drawn Circle shape SheetName "EnhancedDrawTool" and rownumber 6        # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteCircleShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Ellipse feature on map         # Features/EnhancedDrawTool.feature:98
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 7 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Ellipse feature on map SheetName "EnhancedDrawTool" and rownumber 7         # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawEllipse(java.lang.String,int)
+  And User should be able to edit the drawing details of Ellipse SheetName "EnhancedDrawTool" and rownumber 7  # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditEllipseDetails(java.lang.String,int)
+  And User should be able to delete the drawn Ellipse shape SheetName "EnhancedDrawTool" and rownumber 7       # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteEllipseShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Polygon feature on map         # Features/EnhancedDrawTool.feature:110
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 8 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Polygon feature on map SheetName "EnhancedDrawTool" and rownumber 8         # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawPolygon(java.lang.String,int)
+  And User should be able to edit the drawing details of Polygon SheetName "EnhancedDrawTool" and rownumber 8  # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditPolygonDetails(java.lang.String,int)
+  And User should be able to delete the drawn Polygon shape SheetName "EnhancedDrawTool" and rownumber 8       # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeletePolygonShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Freehand Polygon feature on map        # Features/EnhancedDrawTool.feature:122
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 9         # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                                # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Freehand Polygon feature on map SheetName "EnhancedDrawTool" and rownumber 9        # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawFreehandPolygon(java.lang.String,int)
+  And User should be able to edit the drawing details of Freehand Polygon SheetName "EnhancedDrawTool" and rownumber 9 # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditFreehandPolygonDetails(java.lang.String,int)
+  And User should be able to delete the drawn Freehand Polygon shape SheetName "EnhancedDrawTool" and rownumber 9      # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteFreehandPolygonShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: EnhancedDrawTool - To verify that user should be able to draw Text feature on map             # Features/EnhancedDrawTool.feature:134
+*******************Test Case started*******************************
+  Given Application is launched in browser for Enhanced Draw Tool SheetName "EnhancedDrawTool" and rownumber 10 # com.script.stepdefination.EnhancedDrawToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Enhanced Draw tool is clicked and tool is opened                                                         # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickImageryTool()
+  Then User should be able to draw Text feature on map SheetName "EnhancedDrawTool" and rownumber 10            # com.script.stepdefination.EnhancedDrawToolStepDefinition.ClickandDrawText(java.lang.String,int)
+  And User should be able to edit the drawing details of Text SheetName "EnhancedDrawTool" and rownumber 10     # com.script.stepdefination.EnhancedDrawToolStepDefinition.EditTextDetails(java.lang.String,int)
+  And User should be able to delete the drawn Text shape SheetName "EnhancedDrawTool" and rownumber 10          # com.script.stepdefination.EnhancedDrawToolStepDefinition.DeleteTextShape(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ImageryTool - To verify that user can select basemap from basemap gallery and as per the selection basemap should be changed # Features/ImageryTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Imagery Tool SheetName "ImageryTool" and rownumber 0                                            # com.script.stepdefination.ImageryToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Imagery tool is clicked and tool is opened                                                                                              # com.script.stepdefination.ImageryToolStepDefinition.ClickImageryTool()
+  Then User can select basemap from basemap gallery and as per the selection basemap should be changed                                         # com.script.stepdefination.ImageryToolStepDefinition.SelectBasemap()
+
+@Regressiontest
+Scenario Outline: ImageryTool - To verify that user can open streetview by setting coordinates on map from streetviewAerial widget # Features/ImageryTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Imagery Tool SheetName "ImageryTool" and rownumber 1                                # com.script.stepdefination.ImageryToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Imagery tool is clicked and tool is opened                                                                                  # com.script.stepdefination.ImageryToolStepDefinition.ClickImageryTool()
+  Then User can open streetview by setting coordinates on map from streetviewAerial widget                                         # com.script.stepdefination.ImageryToolStepDefinition.OpenStreetView()
+
+@Regressiontest
+Scenario Outline: ImageryTool - To verify that user can open pictometry and can see the pictures in widget by plotting point on map # Features/ImageryTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Imagery Tool SheetName "ImageryTool" and rownumber 2                                 # com.script.stepdefination.ImageryToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Imagery tool is clicked and tool is opened                                                                                   # com.script.stepdefination.ImageryToolStepDefinition.ClickImageryTool()
+  Then User can open pictometry and can see the pictures in widget by plotting points on map                                        # com.script.stepdefination.ImageryToolStepDefinition.OpenPictometry()
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.applicationfunction.ToolImageryPage.TakePictures(ToolImageryPage.java:227)
+	at com.applicationfunction.ToolImageryPage.ClickPictometry(ToolImageryPage.java:188)
+	at com.script.stepdefination.ImageryToolStepDefinition.OpenPictometry(ImageryToolStepDefinition.java:65)
+	at ✽.User can open pictometry and can see the pictures in widget by plotting points on map(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/ImageryTool.feature:28)
+
+
+@Regressiontest
+Scenario Outline: ImageryTool - To verify that user can open Maxar Imagery tool and can add the layer to map # Features/ImageryTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Imagery Tool SheetName "ImageryTool" and rownumber 3          # com.script.stepdefination.ImageryToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Imagery tool is clicked and tool is opened                                                            # com.script.stepdefination.ImageryToolStepDefinition.ClickImageryTool()
+  Then User can open Maxar Imagery tool and can add the layer to map                                         # com.script.stepdefination.ImageryToolStepDefinition.OpenMaxarImagery()
+
+@Regressiontest
+Scenario Outline: LayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map # Features/LayerListTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Layer List Tool SheetName "LayerListTool" and rownumber 0                                                                                                   # com.script.stepdefination.LayerListToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Layer list tool is clicked and Layer list tool is opened                                                                                                                                            # com.script.stepdefination.LayerListToolStepDefinition.ClickLayerListTool()
+  Then User should be able to select and deselect the layer from layerlist tool and as per the selection and deselction visibility of the layer become ON and OFF on map                                   # com.script.stepdefination.LayerListToolStepDefinition.SelectDeselectLayer()
+
+@Regressiontest
+Scenario Outline: LayerListTool - To verify that user should be able use the popup menu options like Zoom In and Enable/Diable popup of Layer list tool # Features/LayerListTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Layer List Tool SheetName "LayerListTool" and rownumber 1                                                # com.script.stepdefination.LayerListToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Layer list tool is clicked and Layer list tool is opened                                                                                         # com.script.stepdefination.LayerListToolStepDefinition.ClickLayerListTool()
+  Then User should be able to use the popup menu options like Zoom In and Enable Diable popup of Layer list tool                                        # com.script.stepdefination.LayerListToolStepDefinition.SelectPopupMenuOptions()
+
+@Regressiontest
+Scenario Outline: LayerListTool - To verify that user should be able use the popup menu options like expand and collapsed all layers # Features/LayerListTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Layer List Tool SheetName "LayerListTool" and rownumber 2                             # com.script.stepdefination.LayerListToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Layer list tool is clicked and Layer list tool is opened                                                                      # com.script.stepdefination.LayerListToolStepDefinition.ClickLayerListTool()
+  Then User should be able use the popup menu options like expand and collapsed all layers                                           # com.script.stepdefination.LayerListToolStepDefinition.SelectExpandCollapsLayerOption()
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Segment Route serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 0                                                                       # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                         # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Segment Route serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 0 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithSegmentRoute(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 1                                                                       # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                         # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 1 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithValveSelection(java.lang.String,int)
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.utilities.StepExecutor.ElementClick(StepExecutor.java:55)
+	at com.applicationfunction.ToolLocatorPage.SelectValveSection(ToolLocatorPage.java:109)
+	at com.script.stepdefination.LocatorToolStepDefinition.LocatewithValveSelection(LocatorToolStepDefinition.java:61)
+	at ✽.User should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 1(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/LocatorTool.feature:18)
+
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Station Site serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 2                                                                      # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                        # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Station Site serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 2 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithStationSite(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Meter Station serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 3                                                                       # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                         # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Meter Station serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 3 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithMeterStation(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Valve Site serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:52
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 4                                                                    # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                      # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Valve Site serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 4 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithValveSite(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Valve serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:62
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 5                                                               # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                 # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Valve serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 5 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithValve(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:72
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 6                                                             # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                               # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 6 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithHCA(java.lang.String,int)
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.utilities.StepExecutor.ElementClick(StepExecutor.java:55)
+	at com.applicationfunction.ToolLocatorPage.SelectBusinessUnit(ToolLocatorPage.java:64)
+	at com.script.stepdefination.LocatorToolStepDefinition.LocatewithHCA(LocatorToolStepDefinition.java:119)
+	at ✽.User should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 6(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/LocatorTool.feature:68)
+
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Acres unit with measurement tool option Area # Features/MeasurementTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 0                                # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                      # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Acres unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 0 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInAcres(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Miles unit with measurement tool option Area # Features/MeasurementTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 1                                   # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                         # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Miles unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 1 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqMiles(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Kilometers unit with measurement tool option Area # Features/MeasurementTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 2                                        # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                              # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Kilometers unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 2 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqKilometers(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Hectares unit with measurement tool option Area # Features/MeasurementTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 3                                   # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                         # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Hectares unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 3 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInHectares(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Yards unit with measurement tool option Area # Features/MeasurementTool.feature:52
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 4                                   # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                         # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Yards unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 4 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqYards(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Feet unit with measurement tool option Area # Features/MeasurementTool.feature:62
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 5                                  # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                        # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Feet unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 5 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqFeet(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Feet (US) unit with measurement tool option Area # Features/MeasurementTool.feature:72
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 6                                       # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                             # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Feet US unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 6   # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqFeetUS(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Sq Meters unit with measurement tool option Area # Features/MeasurementTool.feature:82
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 7                                    # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                          # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Sq Meters unit with measurement tool option Area SheetName "MeasurementTool" and rownumber 7 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInSqMeters(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Miles unit with measurement tool option Distance # Features/MeasurementTool.feature:92
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 8                                    # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                          # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Miles unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 8 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInMiles(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Kilometers unit with measurement tool option Distance # Features/MeasurementTool.feature:102
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 9                                         # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                               # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Kilometers unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 9 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInKilometers(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Feet unit with measurement tool option Distance  # Features/MeasurementTool.feature:112
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 10                                   # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                          # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Feet unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 10 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInFeet(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Feet (US) unit with measurement tool option Distance # Features/MeasurementTool.feature:122
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 11                                       # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                              # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Feet US unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 11  # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInFeetUS(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Meters unit with measurement tool option Distance  # Features/MeasurementTool.feature:132
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 12                                     # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                            # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Meters unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 12 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInMeters(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Yards unit with measurement tool option Distance  # Features/MeasurementTool.feature:142
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 13                                    # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                           # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Yards unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 13 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInYards(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance in Nautical Miles unit with measurement tool option Distance  # Features/MeasurementTool.feature:152
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 14                                             # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                                    # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance in Nautical Miles unit with measurement tool option Distance SheetName "MeasurementTool" and rownumber 14 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceInNauticalMiles(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to measure distance by creating circle with measurement tool option Distance  # Features/MeasurementTool.feature:162
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 15                                         # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                                # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to measure distance by creating circle with measurement tool option Distance SheetName "MeasurementTool" and rownumber 15 # com.script.stepdefination.MeasurementToolStepDefinition.MeasureDistanceByCreatingCircle(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: MeasurementTool - To verify that user should be able to plot point and measure lat and long with measurement tool option Location  # Features/MeasurementTool.feature:172
+*******************Test Case started*******************************
+  Given Application is launched in browser for Measurement Tool SheetName "MeasurementTool" and rownumber 16                                         # com.script.stepdefination.MeasurementToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Measurement tool is clicked and tool is opened                                                                                                # com.script.stepdefination.MeasurementToolStepDefinition.ClickMeasurementTool()
+  Then User should be able to plot point and measure lat and long with measurement tool option Location SheetName "MeasurementTool" and rownumber 16 # com.script.stepdefination.MeasurementToolStepDefinition.PlotPointAndMeasureLatLong(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: PopupFunctions - To verify that user should be able to add the marker to the location from the popup option # Features/PopupFunctions.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Popup Functions SheetName "PopupFunctions" and rownumber 0                     # com.script.stepdefination.PopupFunctionsStepDefinition.LaunchApplication(java.lang.String,int)
+  When Popup should be opened                                                                                                 # com.script.stepdefination.PopupFunctionsStepDefinition.OpenPopup()
+  Then User should be able to add the marker to the location from the popup option                                            # com.script.stepdefination.PopupFunctionsStepDefinition.AddMarker()
+
+@Regressiontest
+Scenario Outline: PopupFunctions - To verify that user should be able to open attribute table from popup window # Features/PopupFunctions.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Popup Functions SheetName "PopupFunctions" and rownumber 1       # com.script.stepdefination.PopupFunctionsStepDefinition.LaunchApplication(java.lang.String,int)
+  When Popup should be opened                                                                                   # com.script.stepdefination.PopupFunctionsStepDefinition.OpenPopup()
+  Then User should be able to open attribute table from popup window                                            # com.script.stepdefination.PopupFunctionsStepDefinition.ViewAttributeTable()
+
+@Regressiontest
+Scenario Outline: PrintTool - To verify that in Enbridge Landscape Template Layout user is able to print in all the different formats # Features/PrintTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Print Tool SheetName "PrintTool" and rownumber 0                                       # com.script.stepdefination.PrintToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Print tool is clicked and tool is opened                                                                                       # com.script.stepdefination.PrintToolStepDefinition.ClickPrintTool()
+  Then In Enbridge Landscape Template Layout user is able to print in all the different formats SheetName "PrintTool" and rownumber 0 # com.script.stepdefination.PrintToolStepDefinition.PrintForEnbridgeLandscapeTemplateLayout(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: PrintTool - To verify that in Enbridge Landscape Template Attributes Layout user is able to print in all the different formats # Features/PrintTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Print Tool SheetName "PrintTool" and rownumber 1                                                  # com.script.stepdefination.PrintToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Print tool is clicked and tool is opened                                                                                                  # com.script.stepdefination.PrintToolStepDefinition.ClickPrintTool()
+  Then In Enbridge Landscape Template Attributes Layout user is able to print in all the different formats SheetName "PrintTool" and rownumber 1 # com.script.stepdefination.PrintToolStepDefinition.PrintForEnbridgeLandscapeTemplateAttributesLayout(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: PrintTool - To verify that in Enbridge Portrait Template Layout user is able to print in all the different formats # Features/PrintTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Print Tool SheetName "PrintTool" and rownumber 2                                      # com.script.stepdefination.PrintToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Print tool is clicked and tool is opened                                                                                      # com.script.stepdefination.PrintToolStepDefinition.ClickPrintTool()
+  Then In Enbridge Portrait Template Layout user is able to print in all the different formats SheetName "PrintTool" and rownumber 2 # com.script.stepdefination.PrintToolStepDefinition.PrintForEnbridgePortraitTemplateLayout(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: PrintTool - To verify that in Enbridge Portrait Template Attributes Layout user is able to print in all the different formats # Features/PrintTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Print Tool SheetName "PrintTool" and rownumber 3                                                 # com.script.stepdefination.PrintToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Print tool is clicked and tool is opened                                                                                                 # com.script.stepdefination.PrintToolStepDefinition.ClickPrintTool()
+  Then In Enbridge Portrait Template Attributes Layout user is able to print in all the different formats SheetName "PrintTool" and rownumber 3 # com.script.stepdefination.PrintToolStepDefinition.PrintForEnbridgePortraitTemplateAttributesLayout(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: PrintTool - To verify that in LP_ClassLocation_Layout_Static_PROD_10.4 Layout user is able to print in all the different formats # Features/PrintTool.feature:52
+*******************Test Case started*******************************
+  Given Application is launched in browser for Print Tool SheetName "PrintTool" and rownumber 4                                                    # com.script.stepdefination.PrintToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Print tool is clicked and tool is opened                                                                                                    # com.script.stepdefination.PrintToolStepDefinition.ClickPrintTool()
+  Then In LP_ClassLocation_Layout_Static_PROD_10.4 Layout user is able to print in all the different formats SheetName "PrintTool" and rownumber 4 # com.script.stepdefination.PrintToolStepDefinition.PrintForLPClassLocationLayoutStaticPRODAttributesLayout(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ProximityTool - To verify that user should be able to use proximity tool to locate address on map with Meters unit # Features/ProximityTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Proximity Tool SheetName "ProximityTool" and rownumber 0                              # com.script.stepdefination.ProximityToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Proximity tool is clicked and tool is opened                                                                                  # com.script.stepdefination.ProximityToolStepDefinition.ClickProximityTool()
+  Then User should be able to use proximity tool to locate address on map with Meters unit SheetName "ProximityTool" and rownumber 0 # com.script.stepdefination.ProximityToolStepDefinition.GetProximityOnMapWithMeterUnit(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Select reactangle shape and draw on map where features are available to get the details on line # Features/SelectTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 0                                                               # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                                                     # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Select reactangle shape and draw on map where features are available to get the details on line SheetName "SelectTool" and rownumber 0 # com.script.stepdefination.SelectToolStepDefinition.SelectReactangleAndDrawOnMap(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Select polygon shape and draw on map where features are available to get the details on line # Features/SelectTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 1                                                            # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                                                  # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Select polygon shape and draw on map where features are available to get the details on line SheetName "SelectTool" and rownumber 1 # com.script.stepdefination.SelectToolStepDefinition.SelectpolygonAndDrawOnMap(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Select circle shape and draw on map where features are available to get the details on line # Features/SelectTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 2                                                           # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                                                 # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Select circle shape and draw on map where features are available to get the details on line SheetName "SelectTool" and rownumber 2 # com.script.stepdefination.SelectToolStepDefinition.SelectcircleAndDrawOnMap(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Select zoom to option of layer after selecting shape by reactangle # Features/SelectTool.feature:42
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 3                                  # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                        # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Select zoom to option of layer after selecting shape by reactangle SheetName "SelectTool" and rownumber 3 # com.script.stepdefination.SelectToolStepDefinition.SelectZoomToOfLayer(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Export layer data to CSV after selecting shape by reactangle # Features/SelectTool.feature:52
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 4                            # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                  # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Export layer data to CSV after selecting shape by reactangle SheetName "SelectTool" and rownumber 4 # com.script.stepdefination.SelectToolStepDefinition.SelectExportTOCSVOfLayer(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be able to Export layer data to feature collection after selecting shape by reactangle # Features/SelectTool.feature:62
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 5                                           # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                                 # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be able to Export layer data to feature collection after selecting shape by reactangle SheetName "SelectTool" and rownumber 5 # com.script.stepdefination.SelectToolStepDefinition.SelectExportToFeatureCollectionOfLayer(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be Export layer data to GeoJSON after selecting shape by reactangle # Features/SelectTool.feature:72
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 6                        # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                              # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be Export layer data to GeoJSON after selecting shape by reactangle SheetName "SelectTool" and rownumber 6 # com.script.stepdefination.SelectToolStepDefinition.SelectExportToGeoJsonOfLayer(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be create new layer from layer options after selecting shape by reactangle # Features/SelectTool.feature:82
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 7                               # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                     # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be create new layer from layer options after selecting shape by reactangle SheetName "SelectTool" and rownumber 7 # com.script.stepdefination.SelectToolStepDefinition.SelectCrateLayerOption(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be save the content of layer after selecting shape by reactangle # Features/SelectTool.feature:92
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 8                     # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                           # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be save the content of layer after selecting shape by reactangle SheetName "SelectTool" and rownumber 8 # com.script.stepdefination.SelectToolStepDefinition.SelectSaveToMyContentOption(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be view the layer data in attribute table after selecting shape by reactangle # Features/SelectTool.feature:102
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 9                                  # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                        # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be view the layer data in attribute table after selecting shape by reactangle SheetName "SelectTool" and rownumber 9 # com.script.stepdefination.SelectToolStepDefinition.SelectViewInAttributeTableOption(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be view the statistics of layer data after selecting shape by reactangle  # Features/SelectTool.feature:112
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 10                             # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                                    # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be view the statistics of layer data after selecting shape by reactangle SheetName "SelectTool" and rownumber 10 # com.script.stepdefination.SelectToolStepDefinition.SelectStatisticsOption(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: SelectTool - To verify that user should be clear the selection after selecting shape by reactangle  # Features/SelectTool.feature:122
+*******************Test Case started*******************************
+  Given Application is launched in browser for Directions Tools SheetName "SelectTool" and rownumber 11               # com.script.stepdefination.SelectToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Select tool is clicked and tool is opened                                                                      # com.script.stepdefination.SelectToolStepDefinition.ClickSelectTool()
+  Then User should be clear the selection after selecting shape by reactangle SheetName "SelectTool" and rownumber 11 # com.script.stepdefination.SelectToolStepDefinition.SelectClearSelection(java.lang.String,int)
+
+@Regressiontest
+Scenario Outline: ShowStationTool - To verify that user should be able to see the station details using show station tool # Features/ShowStationTool.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Show Station Tools SheetName "ShowStationTool" and rownumber 0             # com.script.stepdefination.ShowStationToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Show Station tool is clicked and tool is opened SheetName "ShowStationTool" and rownumber 0                        # com.script.stepdefination.ShowStationToolStepDefinition.ClickShowStationTool(java.lang.String,int)
+  Then User should be able to see the station details using show station tool SheetName "ShowStationTool" and rownumber 0 # com.script.stepdefination.ShowStationToolStepDefinition.ShowStationDetails(java.lang.String,int)
+Tests run: 78, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4,225.956 sec <<< FAILURE! - in com.script.runner.AllToolsRunner
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 17.451 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 33.679 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 41.331 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 30.294 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+
+Results :
+
+Failed tests: 
+com.script.runner.AllToolsRunner.runScenario(com.script.runner.AllToolsRunner)
+  Run 1: AllToolsRunner.runScenario » NullPointer Cannot invoke "org.openqa.selenium.Ta...
+  Run 2: PASS
+  Run 3: PASS
+  Run 4: PASS
+  Run 5: PASS
+  Run 6: PASS
+  Run 7: PASS
+  Run 8: PASS
+  Run 9: PASS
+  Run 10: PASS
+  Run 11: PASS
+  Run 12: PASS
+  Run 13: PASS
+  Run 14: PASS
+  Run 15: PASS
+  Run 16: PASS
+  Run 17: PASS
+  Run 18: PASS
+  Run 19: PASS
+  Run 20: PASS
+  Run 21: PASS
+  Run 22: PASS
+  Run 23: PASS
+  Run 24: PASS
+  Run 25: PASS
+  Run 26: PASS
+  Run 27: PASS
+  Run 28: PASS
+  Run 29: AllToolsRunner.runScenario null
+  Run 30: PASS
+  Run 31: PASS
+  Run 32: PASS
+  Run 33: PASS
+  Run 34: PASS
+  Run 35: AllToolsRunner.runScenario null
+  Run 36: PASS
+  Run 37: PASS
+  Run 38: PASS
+  Run 39: PASS
+  Run 40: AllToolsRunner.runScenario null
+  Run 41: PASS
+  Run 42: PASS
+  Run 43: PASS
+  Run 44: PASS
+  Run 45: PASS
+  Run 46: PASS
+  Run 47: PASS
+  Run 48: PASS
+  Run 49: PASS
+  Run 50: PASS
+  Run 51: PASS
+  Run 52: PASS
+  Run 53: PASS
+  Run 54: PASS
+  Run 55: PASS
+  Run 56: PASS
+  Run 57: PASS
+  Run 58: PASS
+  Run 59: PASS
+  Run 60: PASS
+  Run 61: PASS
+  Run 62: PASS
+  Run 63: PASS
+  Run 64: PASS
+  Run 65: PASS
+  Run 66: PASS
+  Run 67: PASS
+  Run 68: PASS
+  Run 69: PASS
+  Run 70: PASS
+  Run 71: PASS
+  Run 72: PASS
+  Run 73: PASS
+  Run 74: PASS
+  Run 75: PASS
+  Run 76: PASS
+  Run 77: PASS
+  Run 78: PASS
+
+
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:10 h
+[INFO] Finished at: 2024-10-03T05:10:53-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project EMAP_UI_Automation-GTM: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

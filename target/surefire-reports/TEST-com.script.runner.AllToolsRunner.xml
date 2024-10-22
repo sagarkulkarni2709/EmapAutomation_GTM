@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.script.runner.AllToolsRunner" time="4,225.956" tests="78" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\AASH-P~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="classworlds.conf" value="D:\Data\AUTOMATION_ETL\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;D:\oracle\product\12.2.0\client64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-21\bin;D:\Data\AUTOMATION_ETL\apache-maven-3.8.6\bin;C:\Users\AASH-POPTAUS-GISApA1\AppData\Local\Microsoft\WindowsApps;D:\Apps\Microsoft VS Code\bin;C:\ProgramData\anaconda3\Scripts;C:\Users\AASH-POPTAUS-GISApA1\AppData\Roaming\Python\Python311\Scripts;."/>
+    <property name="maven.conf" value="D:\Data\AUTOMATION_ETL\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Data\AUTOMATION_ETL\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\AASH-POPTAUS-GISApA1"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="cucumber.filter.tags" value=" @Regressiontest"/>
+    <property name="user.name" value="AASH-POPTAUS-GISApA1"/>
+    <property name="java.class.path" value="D:\Data\AUTOMATION_ETL\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.filter.tags= @Regressiontest"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Data\AUTOMATION_ETL\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="17.451">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)&quot; because &quot;ts&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+</failure>
+    <system-out><![CDATA[
+@Regressiontest
+Scenario Outline: Appdata Tool - To verify that user should be able to add data from a web URL in Appdata tool # Features/Appdata.feature:12
+*******************Test Case started*******************************
+  Given Application is launched in browser for Appdata Tool SheetName "AppdataTool" and rownumber 0            # com.script.stepdefination.AppdataToolStepDefinition.LaunchApplication(java.lang.String,int)
+      java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+	at com.utilities.TestResultScreenshot.capture(TestResultScreenshot.java:15)
+	at com.utilities.TestResults.PrintFailResultToReport(TestResults.java:89)
+	at com.utilities.TestInitializer.LaunchBrowser(TestInitializer.java:124)
+	at com.script.stepdefination.AppdataToolStepDefinition.LaunchApplication(AppdataToolStepDefinition.java:32)
+	at ✽.Application is launched in browser for Appdata Tool SheetName "AppdataTool" and rownumber 0(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/Appdata.feature:6)
+
+  When Appdata tool is clicked and tool is opened                                                              # com.script.stepdefination.AppdataToolStepDefinition.ClickSelectTool()
+  Then User should be able to add data from a web URL in Appdata tool SheetName "AppdataTool" and rownumber 0  # com.script.stepdefination.AppdataToolStepDefinition.AddDataFromWebURL(java.lang.String,int)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Cleaning up unclosed ZipFile for archive D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM\.\TestData\EmapTestData.xlsx
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="54.259"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="35.571"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="33.322"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="25.217"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="35.025"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="34.775"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="33.728"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="46.711"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="45.256"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="56.378"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="51.718"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="54.34"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="52.161"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="53.445"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="40.239"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="45.627"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="39.676"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="38.602"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="37.172"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="37.808"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="37.368"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="42.573"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="38.036"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="38.012"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="34.712"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="37.722"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="32.913"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="33.679">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+</failure>
+    <system-out><![CDATA[
+@Regressiontest
+Scenario Outline: ImageryTool - To verify that user can open pictometry and can see the pictures in widget by plotting point on map # Features/ImageryTool.feature:32
+*******************Test Case started*******************************
+  Given Application is launched in browser for Imagery Tool SheetName "ImageryTool" and rownumber 2                                 # com.script.stepdefination.ImageryToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Imagery tool is clicked and tool is opened                                                                                   # com.script.stepdefination.ImageryToolStepDefinition.ClickImageryTool()
+  Then User can open pictometry and can see the pictures in widget by plotting points on map                                        # com.script.stepdefination.ImageryToolStepDefinition.OpenPictometry()
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.applicationfunction.ToolImageryPage.TakePictures(ToolImageryPage.java:227)
+	at com.applicationfunction.ToolImageryPage.ClickPictometry(ToolImageryPage.java:188)
+	at com.script.stepdefination.ImageryToolStepDefinition.OpenPictometry(ImageryToolStepDefinition.java:65)
+	at ✽.User can open pictometry and can see the pictures in widget by plotting points on map(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/ImageryTool.feature:28)
+
+]]></system-out>
+    <system-err><![CDATA[Cleaning up unclosed ZipFile for archive D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM\.\TestData\EmapTestData.xlsx
+Oct 03, 2024 4:19:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 03, 2024 4:19:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="47.903"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="36.905"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="69.637"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="19.712"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="22.885"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="41.331">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+</failure>
+    <system-out><![CDATA[
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:22
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 1                                                                       # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                                         # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 1 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithValveSelection(java.lang.String,int)
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.utilities.StepExecutor.ElementClick(StepExecutor.java:55)
+	at com.applicationfunction.ToolLocatorPage.SelectValveSection(ToolLocatorPage.java:109)
+	at com.script.stepdefination.LocatorToolStepDefinition.LocatewithValveSelection(LocatorToolStepDefinition.java:61)
+	at ✽.User should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 1(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/LocatorTool.feature:18)
+
+]]></system-out>
+    <system-err><![CDATA[Oct 03, 2024 4:23:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 03, 2024 4:23:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Cleaning up unclosed ZipFile for archive D:\Data\AUTOMATION_ETL\SCHEDULE_TASKS\EMAP_UI_Automation-GTM\.\TestData\EmapTestData.xlsx
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="25.609"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.81"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="22.328"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="27.48"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="30.294">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+</failure>
+    <system-out><![CDATA[
+@Regressiontest
+Scenario Outline: LocatorTool - To verify that user should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature # Features/LocatorTool.feature:72
+*******************Test Case started*******************************
+  Given Application is launched in browser for Locator Tool SheetName "LocatorTool" and rownumber 6                                                             # com.script.stepdefination.LocatorToolStepDefinition.LaunchApplication(java.lang.String,int)
+  When Locator tool is clicked and tool is opened                                                                                                               # com.script.stepdefination.LocatorToolStepDefinition.ClickLocatorTool()
+  Then User should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 6 # com.script.stepdefination.LocatorToolStepDefinition.LocatewithHCA(java.lang.String,int)
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at com.utilities.StepExecutor.ElementClick(StepExecutor.java:55)
+	at com.applicationfunction.ToolLocatorPage.SelectBusinessUnit(ToolLocatorPage.java:64)
+	at com.script.stepdefination.LocatorToolStepDefinition.LocatewithHCA(LocatorToolStepDefinition.java:119)
+	at ✽.User should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature SheetName "LocatorTool" and rownumber 6(file:///D:/Data/AUTOMATION_ETL/SCHEDULE_TASKS/EMAP_UI_Automation-GTM/Features/LocatorTool.feature:68)
+
+]]></system-out>
+    <system-err><![CDATA[Oct 03, 2024 4:25:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 03, 2024 4:25:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.834"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="24.237"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="26.737"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.345"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.732"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.134"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.62"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="20.727"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="15.832"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="16.416"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="18.586"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="15.933"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="16.967"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="16.222"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="16.397"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="32.506"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="21.183"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="29.07"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="29.908"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="335.536"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="347.015"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="331.445"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="332.653"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="215.976"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="371.262"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="37.001"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="35.227"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="36.32"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="26.27"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="23.56"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="19.606"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="19.332"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="26.522"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="19.717"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="26.139"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="24.075"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="22.333"/>
+  <testcase name="runScenario" classname="com.script.runner.AllToolsRunner" time="32.678"/>
+</testsuite>

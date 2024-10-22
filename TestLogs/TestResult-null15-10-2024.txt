@@ -1,0 +1,15 @@
+
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw point feature on map***************
+15-10-2024 19-41-47 Application successfully.
+15-10-2024 19-41-50 Button - OK is clicked
+15-10-2024 19-41-51 Button - CrossIconAboutTool is clicked
+15-10-2024 19-41-57 Option - External tool is clicked
+15-10-2024 19-41-57 Option - Schematics is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw line feature on map***************
+15-10-2024 19-42-08 Application successfully.
+15-10-2024 19-42-15 Button - OK is clicked
+15-10-2024 19-42-15 Button - CrossIconAboutTool is clicked
+15-10-2024 19-42-34 Option - External tool is clicked
+15-10-2024 19-42-35 Option - Schematics is clicked
+15-10-2024 19-42-41 BU is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

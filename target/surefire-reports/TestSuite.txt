@@ -1,0 +1,86 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 93, Failures: 19, Errors: 0, Skipped: 0, Time elapsed: 5,021.998 sec <<< FAILURE! - in TestSuite
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 34.14 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 21.47 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 32.053 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 463.746 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [832c3eebf1f7385d1c0e82f1848eca05, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56309/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 832c3eebf1f7385d1c0e82f1848eca05
+Caused by: java.util.concurrent.TimeoutException
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 31.641 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 31.788 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 426.176 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5795935a24c2c11f1a5a3b996735216d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57301/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5795935a24c2c11f1a5a3b996735216d
+Caused by: java.util.concurrent.TimeoutException
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 36.876 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 36.515 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 26.89 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 21.555 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 31.488 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 459.327 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84ffa35ae52086c47023e926c6b6bc2a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57464/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84ffa35ae52086c47023e926c6b6bc2a
+Caused by: java.util.concurrent.TimeoutException
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 33.627 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 37.563 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 32.573 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 22.669 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 21.868 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+SendEmail(com.script.runner.FailedScenariosRerunRunner)  Time elapsed: 25.14 sec  <<< FAILURE!
+java.io.IOException: Stream closed
+	at com.script.runner.FailedScenariosRerunRunner.SendEmail(FailedScenariosRerunRunner.java:34)
+

@@ -1,0 +1,35 @@
+
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+01-05-2024 14-55-42 Application successfully.
+01-05-2024 14-55-48 Button - OK is clicked
+01-05-2024 14-55-49 Button - CrossIconAboutTool is clicked
+01-05-2024 14-55-51 Option - LayerListtool is clicked
+01-05-2024 14-55-54 Option - LayerONOFF is clicked
+01-05-2024 14-55-55 Option - Turn All Layer ON is clicked
+01-05-2024 14-55-57 Option - LayerONOFF is clicked
+01-05-2024 14-56-03 Option - LayerListtool is clicked
+01-05-2024 14-56-04 Option - LayerListtool is clicked
+01-05-2024 14-56-05 Option - LayerONOFF is clicked
+01-05-2024 14-56-06 Option - Turn All Layer OFF is clicked
+01-05-2024 14-56-06 Option - LayerListtool is clicked
+01-05-2024 14-56-08 Option - LayerONOFF is clicked
+***************TestResults ForLayerListTool - To verify that user should be able use the popup menu options like Zoom In and Enable/Diable popup of Layer list tool***************
+01-05-2024 14-56-20 Application successfully.
+01-05-2024 14-56-26 Button - OK is clicked
+01-05-2024 14-56-27 Button - CrossIconAboutTool is clicked
+01-05-2024 14-56-29 Option - LayerListtool is clicked
+01-05-2024 14-56-31 Option - LayerONOFF is clicked
+01-05-2024 14-56-31 Option - Turn All Layer ON is clicked
+01-05-2024 14-56-32 Popup menu button is clicked
+01-05-2024 14-56-33 Popup option Zoom To is clicked
+01-05-2024 14-56-36 Option Home is clicked
+01-05-2024 14-56-38 Popup menu button is clicked
+01-05-2024 14-56-39 Option-Diable popup is clicked
+01-05-2024 14-56-40 Option - LayerListtool is clicked
+01-05-2024 14-56-43 Option - LayerONOFF is clicked
+01-05-2024 14-56-45 Option - LayerListtool is clicked
+01-05-2024 14-56-46 Popup menu button is clicked
+01-05-2024 14-56-46 Option-Diable popup is clicked
+01-05-2024 14-56-46 Option - LayerListtool is clicked
+01-05-2024 14-56-48 Option - LayerONOFF is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

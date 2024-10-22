@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Emap UI Test Automation Suite" parallel="false">
+	<test name="Emap UI Test Automation Suite" preserve-order="true">
+		<classes>
+			<class name="com.script.runner.BookmarkToolRunner" />
+			<class name="com.script.runner.LayerListToolRunner" />
+			<class name="com.script.stepdefination.ImageryToolRunner" />
+			<class name="com.script.stepdefination.EnhancedDrawToolRunner" />
+			<class name="com.script.stepdefination.ElevationProfileToolRunner" />
+			<class name="com.script.stepdefination.MeasurementToolRunner" />
+			<class name="com.script.stepdefination.LocatorToolRunner" />
+			<class name="com.script.stepdefination.ProximityToolRunner" />
+			<class name="com.script.stepdefination.DirectionsToolRunner" />
+			<class name="com.script.stepdefination.SelectToolRunner" />
+			<class name="com.script.stepdefination.ShowStationToolRunner" />
+			<class name="com.script.stepdefination.AppdataToolRunner" />
+			<!-- <class name="com.script.stepdefination.AttributeTableToolRunner" />-->
+			<!-- <class name="com.script.restapi.RestAPIRunner" />-->
+			<class name="com.script.stepdefination.PrintToolRunner" />
+			<class name="com.script.stepdefination.PopupFunctionsRunner" />
+		</classes>
+	</test>
+</suite>
+

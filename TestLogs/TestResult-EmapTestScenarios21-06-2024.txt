@@ -1,0 +1,32 @@
+
+***************TestResults ForImageryTool - To verify that user can open pictometry and can see the pictures in widget by plotting point on map***************
+21-06-2024 14-43-15 Application successfully.
+21-06-2024 14-43-19 Button - OK is clicked
+21-06-2024 14-43-19 Button - CrossIconAboutTool is clicked
+21-06-2024 14-43-21 Option - LayerListtool is clicked
+21-06-2024 14-43-22 Search Box input field is populated with value : Tennessee
+21-06-2024 14-43-24 SearchIcon is clicked
+21-06-2024 14-43-32 SearchResult is clicked
+21-06-2024 14-43-34 Clear Search is clicked
+21-06-2024 14-43-38 Icon - Pictometry is clicked
+21-06-2024 14-43-48 Button - Close is clicked
+21-06-2024 14-43-49 Plot - Line Feature is clicked
+21-06-2024 14-43-54 Next Image is clicked
+21-06-2024 14-43-58 Next Image is clicked
+21-06-2024 14-44-02 Next Image is clicked
+21-06-2024 14-44-06 Next Image is clicked
+21-06-2024 14-44-09 Next Image is clicked
+21-06-2024 14-44-12 Next Image is clicked
+21-06-2024 14-44-15 Next Image is clicked
+21-06-2024 14-44-18 Next Image is clicked
+21-06-2024 14-44-21 Next Image is clicked
+21-06-2024 14-44-24 Next Image is clicked
+21-06-2024 14-44-27 Next Image is clicked
+21-06-2024 14-44-30 Next Image is clicked
+21-06-2024 14-44-33 Next Image is clicked
+21-06-2024 14-44-36 Next Image is clicked
+21-06-2024 14-44-39 Next Image is clicked
+21-06-2024 14-44-42 Next Image is clicked
+21-06-2024 14-44-45 Next Image is clicked
+21-06-2024 14-44-48 Next Image is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1013 @@
+
+***************TestResults ForAppdata Tool - To verify that user should be able to add data from a web URL in Appdata tool***************
+01-09-2024 04-00-48 Application successfully.
+01-09-2024 04-00-52 Button - OK is clicked
+01-09-2024 04-00-52 Button - CrossIconAboutTool is clicked
+01-09-2024 04-00-57 Option - Appdata tool is clicked
+01-09-2024 04-00-58 Option - URL is clicked
+01-09-2024 04-00-59 Type Dropdown is clicked
+01-09-2024 04-01-00 Dropdown Item is clicked
+01-09-2024 04-01-00 Link Sample URLs is clicked
+01-09-2024 04-01-08 URL input field is populated with value : http://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Cities/FeatureServer/0
+01-09-2024 04-01-09 Button - Add is clicked
+***************TestResults ForAppdata Tool - To verify that user should be able to add data using serach section in Appdata tool***************
+01-09-2024 04-01-23 Application successfully.
+01-09-2024 04-01-26 Button - OK is clicked
+01-09-2024 04-01-27 Button - CrossIconAboutTool is clicked
+01-09-2024 04-01-31 Option - Appdata tool is clicked
+01-09-2024 04-01-32 Option - Search is clicked
+01-09-2024 04-01-32 Dropdown - Region is clicked
+01-09-2024 04-01-32 Dropdown - Region Item is clicked
+01-09-2024 04-01-33 SearchService input field is populated with value : EnvConst_Permits
+01-09-2024 04-01-33 Search button is clicked
+01-09-2024 04-01-33 Link Add is clicked
+***************TestResults Fornull***************
+01-09-2024 04-01-49 Application successfully.
+01-09-2024 04-01-55 Button - OK is clicked
+01-09-2024 04-01-55 Button - CrossIconAboutTool is clicked
+01-09-2024 04-01-56 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+01-09-2024 04-02-04 SearchIcon is clicked
+01-09-2024 04-02-14 SearchResult is clicked
+01-09-2024 04-02-15 Clear Search is clicked
+01-09-2024 04-02-20 Option - LayerListtool is clicked
+01-09-2024 04-02-20 Button - Add is clicked
+01-09-2024 04-02-21 Bookmark Name input field is populated with value : Test
+01-09-2024 04-02-21 CrossIcon - Bookmark tool is clicked
+01-09-2024 04-02-21 Home button is clicked
+01-09-2024 04-02-22 Option - LayerONOFF is clicked
+01-09-2024 04-02-27 Option - Bookmark Tool is clicked
+01-09-2024 04-02-29 Title bookmark is clicked
+01-09-2024 04-02-29 CrossIcon - Bookmark tool is clicked
+01-09-2024 04-02-31 Option - LayerONOFF is clicked
+***************TestResults Fornull***************
+01-09-2024 04-02-44 Application successfully.
+01-09-2024 04-02-47 Button - OK is clicked
+01-09-2024 04-02-47 Button - CrossIconAboutTool is clicked
+01-09-2024 04-02-48 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+01-09-2024 04-02-50 SearchIcon is clicked
+01-09-2024 04-03-01 SearchResult is clicked
+01-09-2024 04-03-01 Clear Search is clicked
+01-09-2024 04-03-05 Option - LayerListtool is clicked
+01-09-2024 04-03-05 Button - Add is clicked
+01-09-2024 04-03-06 Bookmark Name input field is populated with value : Test
+01-09-2024 04-03-06 CrossIcon - Bookmark tool is clicked
+01-09-2024 04-03-07 Option - Bookmark Tool is clicked
+01-09-2024 04-03-10 Delete button is clicked
+01-09-2024 04-03-14 CrossIcon - Bookmark tool is clicked
+***************TestResults Fornull***************
+01-09-2024 04-03-23 Application successfully.
+01-09-2024 04-03-27 Button - OK is clicked
+01-09-2024 04-03-27 Button - CrossIconAboutTool is clicked
+01-09-2024 04-03-27 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456, USA
+01-09-2024 04-03-30 SearchIcon is clicked
+01-09-2024 04-03-37 SearchResult is clicked
+01-09-2024 04-03-37 Clear Search is clicked
+01-09-2024 04-03-40 Option - LayerListtool is clicked
+01-09-2024 04-03-40 Button - Add is clicked
+01-09-2024 04-03-41 Bookmark Name input field is populated with value : Test
+01-09-2024 04-03-41 CrossIcon - Bookmark tool is clicked
+01-09-2024 04-03-42 Option - Bookmark Tool is clicked
+01-09-2024 04-03-43 Bookmark Name input field is populated with value : Test1
+01-09-2024 04-03-43 CrossIcon - Bookmark tool is clicked
+01-09-2024 04-03-44 Option - Bookmark Tool is clicked
+***************TestResults ForDirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Driving Time***************
+01-09-2024 04-03-55 Application successfully.
+01-09-2024 04-03-58 Button - OK is clicked
+01-09-2024 04-03-59 Button - CrossIconAboutTool is clicked
+01-09-2024 04-04-01 Option - Directions tool is clicked
+01-09-2024 04-04-08 From Address input field is populated with value : Houston Intercontinental Airport, 2800 Terminal Rd N, Houston, TX, 77032, USA
+01-09-2024 04-04-11 To Address input field is populated with value : New York, NY, USA (New York County)
+01-09-2024 04-04-11 DropDown Time is clicked
+01-09-2024 04-04-12 Option - Driving Time is clicked
+01-09-2024 04-04-12 Button - Get Directions is clicked
+***************TestResults ForDirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Rural Driving Time***************
+01-09-2024 04-04-31 Application successfully.
+01-09-2024 04-04-34 Button - OK is clicked
+01-09-2024 04-04-35 Button - CrossIconAboutTool is clicked
+01-09-2024 04-04-36 Option - Directions tool is clicked
+01-09-2024 04-04-39 From Address input field is populated with value : Houston Intercontinental Airport, 2800 Terminal Rd N, Houston, TX, 77032, USA
+01-09-2024 04-04-46 To Address input field is populated with value : New York, NY, USA (New York County)
+01-09-2024 04-04-47 DropDown Time is clicked
+01-09-2024 04-04-48 Option - Driving Time is clicked
+01-09-2024 04-04-48 Button - Get Directions is clicked
+***************TestResults ForDirectionsTool - To verify that user should be able to get direction between two locations using Directions tool and also able to get Walking Time***************
+01-09-2024 04-05-06 Application successfully.
+01-09-2024 04-05-09 Button - OK is clicked
+01-09-2024 04-05-09 Button - CrossIconAboutTool is clicked
+01-09-2024 04-05-21 Option - Directions tool is clicked
+01-09-2024 04-05-22 From Address input field is populated with value : Houston Intercontinental Airport, 2800 Terminal Rd N, Houston, TX, 77032, USA
+01-09-2024 04-05-26 To Address input field is populated with value : Intercontinental Pl, Houston, TX, 77032, USA
+01-09-2024 04-05-26 DropDown Time is clicked
+01-09-2024 04-05-26 Option - Driving Time is clicked
+01-09-2024 04-05-26 Button - Get Directions is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Miles and also should be able to use profile result option***************
+01-09-2024 04-05-43 Application successfully.
+01-09-2024 04-05-47 Button - OK is clicked
+01-09-2024 04-05-47 Button - CrossIconAboutTool is clicked
+01-09-2024 04-05-49 Option - Elevation Profile is clicked
+01-09-2024 04-05-51 Button - Distance is clicked
+01-09-2024 04-05-52 Point on map is clicked
+01-09-2024 04-05-53 DropDown - Unit is clicked
+01-09-2024 04-05-53 Unit Name is clicked
+01-09-2024 04-05-53 Button - Generate Profile is clicked
+01-09-2024 04-06-11 Option Elevation Profile is clicked
+01-09-2024 04-06-11 Option Profile Information is clicked
+01-09-2024 04-06-14 Button - OK is clicked
+01-09-2024 04-06-14 Option Elevation Profile is clicked
+01-09-2024 04-06-14 File Elevation Profile Direction is clicked
+01-09-2024 04-06-21 Option Elevation Profile is clicked
+01-09-2024 04-06-21 Option Elevation Profile is clicked
+01-09-2024 04-06-21 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Kilometers and also should be able to use profile result option***************
+01-09-2024 04-06-35 Application successfully.
+01-09-2024 04-06-39 Button - OK is clicked
+01-09-2024 04-06-39 Button - CrossIconAboutTool is clicked
+01-09-2024 04-06-41 Option - Elevation Profile is clicked
+01-09-2024 04-06-42 Button - Distance is clicked
+01-09-2024 04-06-42 Point on map is clicked
+01-09-2024 04-06-43 DropDown - Unit is clicked
+01-09-2024 04-06-43 Unit Name is clicked
+01-09-2024 04-06-44 Button - Generate Profile is clicked
+01-09-2024 04-07-02 Option Elevation Profile is clicked
+01-09-2024 04-07-02 Option Profile Information is clicked
+01-09-2024 04-07-05 Button - OK is clicked
+01-09-2024 04-07-05 Option Elevation Profile is clicked
+01-09-2024 04-07-06 File Elevation Profile Direction is clicked
+01-09-2024 04-07-13 Option Elevation Profile is clicked
+01-09-2024 04-07-13 Option Elevation Profile is clicked
+01-09-2024 04-07-14 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Feet and also should be able to use profile result option***************
+01-09-2024 04-07-28 Application successfully.
+01-09-2024 04-07-33 Button - OK is clicked
+01-09-2024 04-07-33 Button - CrossIconAboutTool is clicked
+01-09-2024 04-07-36 Option - Elevation Profile is clicked
+01-09-2024 04-07-39 Button - Distance is clicked
+01-09-2024 04-07-43 Point on map is clicked
+01-09-2024 04-07-46 DropDown - Unit is clicked
+01-09-2024 04-07-48 Unit Name is clicked
+01-09-2024 04-07-49 Button - Generate Profile is clicked
+01-09-2024 04-07-49 Button - OK is clicked
+01-09-2024 04-08-10 Option Elevation Profile is clicked
+01-09-2024 04-08-11 Option Profile Information is clicked
+01-09-2024 04-08-13 Button - OK is clicked
+01-09-2024 04-08-13 Option Elevation Profile is clicked
+01-09-2024 04-08-14 File Elevation Profile Direction is clicked
+01-09-2024 04-08-30 Option Elevation Profile is clicked
+01-09-2024 04-08-30 Option Elevation Profile is clicked
+01-09-2024 04-08-31 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Feet US and also should be able to use profile result option***************
+01-09-2024 04-08-43 Application successfully.
+01-09-2024 04-08-48 Button - OK is clicked
+01-09-2024 04-08-48 Button - CrossIconAboutTool is clicked
+01-09-2024 04-08-50 Option - Elevation Profile is clicked
+01-09-2024 04-08-54 Button - Distance is clicked
+01-09-2024 04-08-58 Point on map is clicked
+01-09-2024 04-09-00 DropDown - Unit is clicked
+01-09-2024 04-09-01 Unit Name is clicked
+01-09-2024 04-09-01 Button - Generate Profile is clicked
+01-09-2024 04-09-02 Button - OK is clicked
+01-09-2024 04-09-22 Option Elevation Profile is clicked
+01-09-2024 04-09-23 Option Profile Information is clicked
+01-09-2024 04-09-25 Button - OK is clicked
+01-09-2024 04-09-26 Option Elevation Profile is clicked
+01-09-2024 04-09-26 File Elevation Profile Direction is clicked
+01-09-2024 04-09-42 Option Elevation Profile is clicked
+01-09-2024 04-09-42 Option Elevation Profile is clicked
+01-09-2024 04-09-42 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Meters and also should be able to use profile result option***************
+01-09-2024 04-09-55 Application successfully.
+01-09-2024 04-09-58 Button - OK is clicked
+01-09-2024 04-09-59 Button - CrossIconAboutTool is clicked
+01-09-2024 04-10-00 Option - Elevation Profile is clicked
+01-09-2024 04-10-01 Button - Distance is clicked
+01-09-2024 04-10-01 Point on map is clicked
+01-09-2024 04-10-02 DropDown - Unit is clicked
+01-09-2024 04-10-02 Unit Name is clicked
+01-09-2024 04-10-02 Button - Generate Profile is clicked
+01-09-2024 04-10-03 Button - OK is clicked
+01-09-2024 04-10-25 Option Elevation Profile is clicked
+01-09-2024 04-10-26 Option Profile Information is clicked
+01-09-2024 04-10-28 Button - OK is clicked
+01-09-2024 04-10-28 Option Elevation Profile is clicked
+01-09-2024 04-10-28 File Elevation Profile Direction is clicked
+01-09-2024 04-10-44 Option Elevation Profile is clicked
+01-09-2024 04-10-44 Option Elevation Profile is clicked
+01-09-2024 04-10-45 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Yards and also should be able to use profile result option***************
+01-09-2024 04-10-57 Application successfully.
+01-09-2024 04-11-00 Button - OK is clicked
+01-09-2024 04-11-01 Button - CrossIconAboutTool is clicked
+01-09-2024 04-11-03 Option - Elevation Profile is clicked
+01-09-2024 04-11-04 Button - Distance is clicked
+01-09-2024 04-11-04 Point on map is clicked
+01-09-2024 04-11-06 DropDown - Unit is clicked
+01-09-2024 04-11-06 Unit Name is clicked
+01-09-2024 04-11-06 Button - Generate Profile is clicked
+01-09-2024 04-11-06 Button - OK is clicked
+01-09-2024 04-11-28 Option Elevation Profile is clicked
+01-09-2024 04-11-28 Option Profile Information is clicked
+01-09-2024 04-11-31 Button - OK is clicked
+01-09-2024 04-11-31 Option Elevation Profile is clicked
+01-09-2024 04-11-32 File Elevation Profile Direction is clicked
+01-09-2024 04-11-48 Option Elevation Profile is clicked
+01-09-2024 04-11-48 Option Elevation Profile is clicked
+01-09-2024 04-11-49 Link Download is clicked
+***************TestResults ForElevationProfileTool - To verify that user should be able generate elevation profile with measurement unit Nautical Miles and also should be able to use profile result option***************
+01-09-2024 04-12-02 Application successfully.
+01-09-2024 04-12-07 Button - OK is clicked
+01-09-2024 04-12-07 Button - CrossIconAboutTool is clicked
+01-09-2024 04-12-09 Option - Elevation Profile is clicked
+01-09-2024 04-12-11 Button - Distance is clicked
+01-09-2024 04-12-12 Point on map is clicked
+01-09-2024 04-12-12 DropDown - Unit is clicked
+01-09-2024 04-12-13 Unit Name is clicked
+01-09-2024 04-12-13 Button - Generate Profile is clicked
+01-09-2024 04-12-13 Button - OK is clicked
+01-09-2024 04-12-35 Option Elevation Profile is clicked
+01-09-2024 04-12-36 Option Profile Information is clicked
+01-09-2024 04-12-38 Button - OK is clicked
+01-09-2024 04-12-38 Option Elevation Profile is clicked
+01-09-2024 04-12-39 File Elevation Profile Direction is clicked
+01-09-2024 04-12-54 Option Elevation Profile is clicked
+01-09-2024 04-12-54 Option Elevation Profile is clicked
+01-09-2024 04-12-55 Link Download is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw point feature on map***************
+01-09-2024 04-13-06 Application successfully.
+01-09-2024 04-13-11 Button - OK is clicked
+01-09-2024 04-13-12 Button - CrossIconAboutTool is clicked
+01-09-2024 04-13-13 Option - LayerListtool is clicked
+01-09-2024 04-13-14 Option Draw Point is clicked
+01-09-2024 04-13-14 Drawing Name input field is populated with value : Point
+01-09-2024 04-13-15 Drawing Description input field is populated with value : PointDescription
+01-09-2024 04-13-15 Drawing SymbolSize input field is populated with value : 25
+01-09-2024 04-13-16 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-13-16 Point on map is clicked
+01-09-2024 04-13-26 Button - Edit is clicked
+01-09-2024 04-13-28 Drawing Name input field is populated with value : EditedPoint
+01-09-2024 04-13-29 Drawing Description input field is populated with value : EditedPointDescription
+01-09-2024 04-13-31 Outline Width input field is populated with value : 4
+01-09-2024 04-13-31 Button - Save is clicked
+01-09-2024 04-13-36 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw line feature on map***************
+01-09-2024 04-13-47 Application successfully.
+01-09-2024 04-13-51 Button - OK is clicked
+01-09-2024 04-13-51 Button - CrossIconAboutTool is clicked
+01-09-2024 04-13-53 Option - LayerListtool is clicked
+01-09-2024 04-13-55 Option Draw Line is clicked
+01-09-2024 04-13-55 Drawing Name input field is populated with value : Line
+01-09-2024 04-13-55 Drawing Description input field is populated with value : LineDescription
+01-09-2024 04-13-56 Drawing Width input field is populated with value : 5
+01-09-2024 04-13-56 Point on map is clicked
+01-09-2024 04-14-04 Button - Edit is clicked
+01-09-2024 04-14-05 Drawing Name input field is populated with value : EditedLine
+01-09-2024 04-14-06 Drawing Description input field is populated with value : EditedLineDescription
+01-09-2024 04-14-06 Width input field is populated with value : 7
+01-09-2024 04-14-07 Button - Save is clicked
+01-09-2024 04-14-12 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw polyline feature on map***************
+01-09-2024 04-14-22 Application successfully.
+01-09-2024 04-14-26 Button - OK is clicked
+01-09-2024 04-14-26 Button - CrossIconAboutTool is clicked
+01-09-2024 04-14-28 Option - LayerListtool is clicked
+01-09-2024 04-14-29 Option Draw Line is clicked
+01-09-2024 04-14-29 Drawing Name input field is populated with value : Polyline
+01-09-2024 04-14-30 Drawing Description input field is populated with value : PolylineDescription
+01-09-2024 04-14-30 Drawing Width input field is populated with value : 5
+01-09-2024 04-14-30 Point on map is clicked
+01-09-2024 04-14-39 Button - Edit is clicked
+01-09-2024 04-14-39 Drawing Name input field is populated with value : EditedPolyline
+01-09-2024 04-14-40 Drawing Description input field is populated with value : EditedPolylineDescription
+01-09-2024 04-14-41 Width input field is populated with value : 7
+01-09-2024 04-14-41 Button - Save is clicked
+01-09-2024 04-14-46 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Freehand polyline feature on map***************
+01-09-2024 04-14-57 Application successfully.
+01-09-2024 04-15-03 Button - OK is clicked
+01-09-2024 04-15-03 Button - CrossIconAboutTool is clicked
+01-09-2024 04-15-08 Option - LayerListtool is clicked
+01-09-2024 04-15-09 Option Draw Freehand PolyLine is clicked
+01-09-2024 04-15-09 Drawing Name input field is populated with value : Freehand Polyline
+01-09-2024 04-15-10 Drawing Description input field is populated with value : Freehand PolylineDescription
+01-09-2024 04-15-10 Drawing Width input field is populated with value : 5
+01-09-2024 04-15-10 Point on map is clicked
+01-09-2024 04-15-19 Button - Edit is clicked
+01-09-2024 04-15-19 Drawing Name input field is populated with value : EditedFreehand Polyline
+01-09-2024 04-15-20 Drawing Description input field is populated with value : EditedFreehand PolylineDescription
+01-09-2024 04-15-20 Width input field is populated with value : 7
+01-09-2024 04-15-21 Button - Save is clicked
+01-09-2024 04-15-26 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Triangle feature on map***************
+01-09-2024 04-15-36 Application successfully.
+01-09-2024 04-15-39 Button - OK is clicked
+01-09-2024 04-15-40 Button - CrossIconAboutTool is clicked
+01-09-2024 04-15-41 Option - LayerListtool is clicked
+01-09-2024 04-15-42 Option Draw Triangle is clicked
+01-09-2024 04-15-43 Drawing Name input field is populated with value : Triangle
+01-09-2024 04-15-43 Drawing Description input field is populated with value : Triangle Description
+01-09-2024 04-15-43 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-15-43 Point on map is clicked
+01-09-2024 04-15-53 Button - Edit is clicked
+01-09-2024 04-15-55 Drawing Name input field is populated with value : EditedTriangle
+01-09-2024 04-15-56 Drawing Description input field is populated with value : EditedTriangle Description
+01-09-2024 04-15-57 Width input field is populated with value : 7
+01-09-2024 04-15-57 Button - Save is clicked
+01-09-2024 04-16-02 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Extent feature on map***************
+01-09-2024 04-16-13 Application successfully.
+01-09-2024 04-16-18 Button - OK is clicked
+01-09-2024 04-16-18 Button - CrossIconAboutTool is clicked
+01-09-2024 04-16-20 Option - LayerListtool is clicked
+01-09-2024 04-16-26 Option Draw Extent is clicked
+01-09-2024 04-16-30 Drawing Name input field is populated with value : Extent
+01-09-2024 04-16-31 Drawing Description input field is populated with value : Extent Description
+01-09-2024 04-16-32 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-16-33 Point on map is clicked
+01-09-2024 04-16-39 Button - Edit is clicked
+01-09-2024 04-16-40 Drawing Name input field is populated with value : EditedExtent
+01-09-2024 04-16-40 Drawing Description input field is populated with value : EditedExtent Description
+01-09-2024 04-16-41 Width input field is populated with value : 7
+01-09-2024 04-16-41 Button - Save is clicked
+01-09-2024 04-16-47 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Circle feature on map***************
+01-09-2024 04-16-59 Application successfully.
+01-09-2024 04-17-04 Button - OK is clicked
+01-09-2024 04-17-05 Button - CrossIconAboutTool is clicked
+01-09-2024 04-17-15 Option - LayerListtool is clicked
+01-09-2024 04-17-18 Option Draw Circle is clicked
+01-09-2024 04-17-18 Drawing Name input field is populated with value : Circle
+01-09-2024 04-17-19 Drawing Description input field is populated with value : Circle Description
+01-09-2024 04-17-19 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-17-20 Point on map is clicked
+01-09-2024 04-17-26 Button - Edit is clicked
+01-09-2024 04-17-27 Drawing Name input field is populated with value : EditedCircle
+01-09-2024 04-17-27 Drawing Description input field is populated with value : EditedCircle Description
+01-09-2024 04-17-27 Width input field is populated with value : 7
+01-09-2024 04-17-28 Button - Save is clicked
+01-09-2024 04-17-33 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Ellipse feature on map***************
+01-09-2024 04-17-47 Application successfully.
+01-09-2024 04-17-50 Button - OK is clicked
+01-09-2024 04-17-51 Button - CrossIconAboutTool is clicked
+01-09-2024 04-18-01 Option - LayerListtool is clicked
+01-09-2024 04-18-02 Option Draw Ellipse is clicked
+01-09-2024 04-18-02 Drawing Name input field is populated with value : Ellipse
+01-09-2024 04-18-03 Drawing Description input field is populated with value : Ellipse Description
+01-09-2024 04-18-03 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-18-04 Point on map is clicked
+01-09-2024 04-18-10 Button - Edit is clicked
+01-09-2024 04-18-11 Drawing Name input field is populated with value : EditedEllipse
+01-09-2024 04-18-12 Drawing Description input field is populated with value : EditedEllipse Description
+01-09-2024 04-18-12 Width input field is populated with value : 7
+01-09-2024 04-18-12 Button - Save is clicked
+01-09-2024 04-18-17 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Polygon feature on map***************
+01-09-2024 04-18-29 Application successfully.
+01-09-2024 04-18-32 Button - OK is clicked
+01-09-2024 04-18-32 Button - CrossIconAboutTool is clicked
+01-09-2024 04-18-34 Option - LayerListtool is clicked
+01-09-2024 04-18-35 Option Draw Polygon is clicked
+01-09-2024 04-18-35 Drawing Name input field is populated with value : Polygon
+01-09-2024 04-18-36 Drawing Description input field is populated with value : Polygon Description
+01-09-2024 04-18-36 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-18-37 Point on map is clicked
+01-09-2024 04-18-45 Button - Edit is clicked
+01-09-2024 04-18-48 Drawing Name input field is populated with value : EditedPolygon
+01-09-2024 04-18-49 Drawing Description input field is populated with value : EditedPolygon Description
+01-09-2024 04-18-49 Width input field is populated with value : 7
+01-09-2024 04-18-49 Button - Save is clicked
+01-09-2024 04-18-55 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Freehand Polygon feature on map***************
+01-09-2024 04-19-07 Application successfully.
+01-09-2024 04-19-11 Button - OK is clicked
+01-09-2024 04-19-11 Button - CrossIconAboutTool is clicked
+01-09-2024 04-19-13 Option - LayerListtool is clicked
+01-09-2024 04-19-14 Option Draw Freehand Polygon is clicked
+01-09-2024 04-19-14 Drawing Name input field is populated with value : Freehand Polygon
+01-09-2024 04-19-15 Drawing Description input field is populated with value : Freehand Polygon Description
+01-09-2024 04-19-15 Drawing Outlinewidth input field is populated with value : 5
+01-09-2024 04-19-15 Point on map is clicked
+01-09-2024 04-19-26 Button - Edit is clicked
+01-09-2024 04-19-26 Drawing Name input field is populated with value : EditedFreehand Polygon
+01-09-2024 04-19-27 Drawing Description input field is populated with value : EditedFreehand Polygon Description
+01-09-2024 04-19-27 Width input field is populated with value : 7
+01-09-2024 04-19-28 Button - Save is clicked
+01-09-2024 04-19-33 Button - Edit is clicked
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw Text feature on map***************
+01-09-2024 04-19-42 Application successfully.
+01-09-2024 04-19-48 Button - OK is clicked
+01-09-2024 04-19-48 Button - CrossIconAboutTool is clicked
+01-09-2024 04-19-50 Option - LayerListtool is clicked
+01-09-2024 04-19-52 Option Draw Text is clicked
+01-09-2024 04-19-53 Drawing Name input field is populated with value : Text
+01-09-2024 04-19-54 Drawing Description input field is populated with value : Text Description
+01-09-2024 04-19-58 Point on map is clicked
+01-09-2024 04-20-05 Button - Edit is clicked
+01-09-2024 04-20-05 Drawing Name input field is populated with value : EditedText
+01-09-2024 04-20-06 Drawing Description input field is populated with value : EditedText Description
+01-09-2024 04-20-06 Button - Save is clicked
+01-09-2024 04-20-12 Button - Edit is clicked
+***************TestResults ForImageryTool - To verify that user can select basemap from basemap gallery and as per the selection basemap should be changed***************
+01-09-2024 04-20-24 Application successfully.
+01-09-2024 04-20-30 Button - OK is clicked
+01-09-2024 04-20-30 Button - CrossIconAboutTool is clicked
+01-09-2024 04-20-43 Option - LayerListtool is clicked
+01-09-2024 04-20-47 Icon - basemapgallery is clicked
+***************TestResults ForImageryTool - User can open streetview by setting coordinates on map from streetviewAerial widget***************
+01-09-2024 04-21-11 Application successfully.
+01-09-2024 04-21-16 Button - OK is clicked
+01-09-2024 04-21-16 Button - CrossIconAboutTool is clicked
+01-09-2024 04-21-18 Option - LayerListtool is clicked
+01-09-2024 04-21-24 Icon - basemapgallery is clicked
+01-09-2024 04-21-27 Plot - Line Feature is clicked
+01-09-2024 04-21-33 Button - Openstreetview is clicked
+01-09-2024 04-21-36 Button - Openstreetview is clicked
+***************TestResults ForImageryTool - To verify that user can open pictometry and can see the pictures in widget by plotting point on map***************
+01-09-2024 04-21-50 Application successfully.
+01-09-2024 04-21-57 Button - OK is clicked
+01-09-2024 04-21-57 Button - CrossIconAboutTool is clicked
+01-09-2024 04-22-16 Option - LayerListtool is clicked
+01-09-2024 04-22-17 Search Box input field is populated with value : Tennessee
+01-09-2024 04-22-20 SearchIcon is clicked
+01-09-2024 04-22-23 SearchResult is clicked
+01-09-2024 04-22-24 Clear Search is clicked
+01-09-2024 04-22-29 Icon - Pictometry is clicked
+01-09-2024 04-22-34 Button - Close is clicked
+01-09-2024 04-22-34 Plot - Line Feature is clicked
+***************TestResults ForImageryTool - To verify that user can open Maxar Imagery tool and can add the layer to map***************
+01-09-2024 04-22-47 Application successfully.
+01-09-2024 04-22-50 Button - OK is clicked
+01-09-2024 04-22-51 Button - CrossIconAboutTool is clicked
+01-09-2024 04-22-53 Option - LayerListtool is clicked
+01-09-2024 04-22-53 Search Box input field is populated with value : Tennessee
+01-09-2024 04-22-55 SearchIcon is clicked
+01-09-2024 04-23-00 SearchResult is clicked
+01-09-2024 04-23-00 Clear Search is clicked
+01-09-2024 04-23-00 Icon - Maxar Imagery is clicked
+01-09-2024 04-23-05 Button - Close is clicked
+***************TestResults ForLayerListTool - To verify that user should be able to select/deselect the layer from layerlist tool and as per the selection/deselction visibility of the layer become ON and OFF on map***************
+01-09-2024 04-23-32 Application successfully.
+01-09-2024 04-23-35 Button - OK is clicked
+01-09-2024 04-23-35 Button - CrossIconAboutTool is clicked
+01-09-2024 04-23-38 Option - LayerListtool is clicked
+01-09-2024 04-23-39 Option - LayerONOFF is clicked
+01-09-2024 04-23-39 Option - Turn All Layer ON is clicked
+01-09-2024 04-23-41 Option - LayerONOFF is clicked
+01-09-2024 04-23-49 Option - LayerListtool is clicked
+01-09-2024 04-23-53 Option - LayerListtool is clicked
+01-09-2024 04-23-54 Option - LayerONOFF is clicked
+01-09-2024 04-23-54 Option - Turn All Layer OFF is clicked
+01-09-2024 04-23-57 Option - LayerListtool is clicked
+01-09-2024 04-23-59 Option - LayerONOFF is clicked
+***************TestResults ForLayerListTool - To verify that user should be able use the popup menu options like Zoom In and Enable/Diable popup of Layer list tool***************
+01-09-2024 04-24-10 Application successfully.
+01-09-2024 04-24-14 Button - OK is clicked
+01-09-2024 04-24-14 Button - CrossIconAboutTool is clicked
+01-09-2024 04-24-20 Option - LayerListtool is clicked
+01-09-2024 04-24-23 Popup menu button is clicked
+01-09-2024 04-24-27 Option-Diable popup is clicked
+01-09-2024 04-24-32 Option - LayerListtool is clicked
+01-09-2024 04-24-34 Option - LayerONOFF is clicked
+01-09-2024 04-24-38 Option - LayerListtool is clicked
+01-09-2024 04-24-39 Popup menu button is clicked
+01-09-2024 04-24-39 Option-Enable popup is clicked
+01-09-2024 04-24-41 Option - LayerListtool is clicked
+01-09-2024 04-24-42 Option - LayerONOFF is clicked
+01-09-2024 04-24-47 Option - LayerListtool is clicked
+01-09-2024 04-24-47 Option - LayerONOFF is clicked
+01-09-2024 04-24-48 Option - Turn All Layer ON is clicked
+01-09-2024 04-24-48 Popup menu button is clicked
+01-09-2024 04-24-48 Popup option Zoom To is clicked
+01-09-2024 04-24-49 Option Home is clicked
+01-09-2024 04-24-49 Popup menu button is clicked
+01-09-2024 04-24-50 Option - Transperancy is clicked
+01-09-2024 04-24-51 Option - Slider is clicked
+01-09-2024 04-24-54 Popup menu button is clicked
+01-09-2024 04-24-54 Option - Transperancy is clicked
+01-09-2024 04-25-03 Popup menu button is clicked
+01-09-2024 04-25-03 Option - Transperancy is clicked
+01-09-2024 04-25-03 Option - Transperancy is clicked
+***************TestResults ForLayerListTool - To verify that user should be able use the popup menu options like expand and collapsed all layers***************
+01-09-2024 04-25-14 Application successfully.
+01-09-2024 04-25-17 Button - OK is clicked
+01-09-2024 04-25-17 Button - CrossIconAboutTool is clicked
+01-09-2024 04-25-20 Option - LayerListtool is clicked
+01-09-2024 04-25-21 Option - LayerONOFF is clicked
+01-09-2024 04-25-21 Option - Expand All Layers is clicked
+01-09-2024 04-25-25 Option - LayerONOFF is clicked
+01-09-2024 04-25-26 Option - Collapse All Layers is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Segment Route serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-25-38 Application successfully.
+01-09-2024 04-25-41 Button - OK is clicked
+01-09-2024 04-25-41 Button - CrossIconAboutTool is clicked
+01-09-2024 04-25-43 Option - Locator tool is clicked
+01-09-2024 04-25-45 List Search options is clicked
+01-09-2024 04-25-45 Item Search option is clicked
+01-09-2024 04-25-46 Dropdown - Business Unit is clicked
+01-09-2024 04-25-46 Unit Name is clicked
+01-09-2024 04-25-48 Dropdown - Segment is clicked
+01-09-2024 04-25-49 Segment is clicked
+01-09-2024 04-25-49 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-26-05 Application successfully.
+01-09-2024 04-26-08 Button - OK is clicked
+01-09-2024 04-26-09 Button - CrossIconAboutTool is clicked
+01-09-2024 04-26-10 Option - Locator tool is clicked
+01-09-2024 04-26-12 List Search options is clicked
+01-09-2024 04-26-13 Item Search option is clicked
+01-09-2024 04-26-14 Dropdown - Business Unit is clicked
+01-09-2024 04-26-14 Unit Name is clicked
+01-09-2024 04-26-19 Dropdown - Segment is clicked
+01-09-2024 04-26-20 Segment is clicked
+01-09-2024 04-26-21 Dropdown - Pipeline is clicked
+01-09-2024 04-26-21 Pipeline is clicked
+01-09-2024 04-26-24 Dropdown - ValveSelection is clicked
+01-09-2024 04-26-24 ValveSelection is clicked
+01-09-2024 04-26-24 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Station Site serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-26-39 Application successfully.
+01-09-2024 04-26-43 Button - OK is clicked
+01-09-2024 04-26-43 Button - CrossIconAboutTool is clicked
+01-09-2024 04-26-44 Option - Locator tool is clicked
+01-09-2024 04-26-45 List Search options is clicked
+01-09-2024 04-26-46 Item Search option is clicked
+01-09-2024 04-26-47 Dropdown - Business Unit is clicked
+01-09-2024 04-26-47 Unit Name is clicked
+01-09-2024 04-26-51 Dropdown - Site is clicked
+01-09-2024 04-26-55 ValveSelection is clicked
+01-09-2024 04-26-56 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Meter Station serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-27-10 Application successfully.
+01-09-2024 04-27-14 Button - OK is clicked
+01-09-2024 04-27-14 Button - CrossIconAboutTool is clicked
+01-09-2024 04-27-16 Option - Locator tool is clicked
+01-09-2024 04-27-18 List Search options is clicked
+01-09-2024 04-27-18 Item Search option is clicked
+01-09-2024 04-27-19 Dropdown - Business Unit is clicked
+01-09-2024 04-27-19 Unit Name is clicked
+01-09-2024 04-27-21 Dropdown - Segment is clicked
+01-09-2024 04-27-21 Segment is clicked
+01-09-2024 04-27-28 Dropdown - Pipeline is clicked
+01-09-2024 04-27-29 Pipeline is clicked
+01-09-2024 04-27-30 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Site serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-27-43 Application successfully.
+01-09-2024 04-27-49 Button - OK is clicked
+01-09-2024 04-27-50 Button - CrossIconAboutTool is clicked
+01-09-2024 04-27-51 Option - Locator tool is clicked
+01-09-2024 04-27-52 List Search options is clicked
+01-09-2024 04-27-53 Item Search option is clicked
+01-09-2024 04-27-54 Dropdown - Business Unit is clicked
+01-09-2024 04-27-55 Unit Name is clicked
+01-09-2024 04-27-56 Dropdown - Segment is clicked
+01-09-2024 04-27-56 Segment is clicked
+01-09-2024 04-27-58 Dropdown - Pipeline is clicked
+01-09-2024 04-27-58 Pipeline is clicked
+01-09-2024 04-27-58 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-28-11 Application successfully.
+01-09-2024 04-28-15 Button - OK is clicked
+01-09-2024 04-28-15 Button - CrossIconAboutTool is clicked
+01-09-2024 04-28-17 Option - Locator tool is clicked
+01-09-2024 04-28-18 List Search options is clicked
+01-09-2024 04-28-18 Item Search option is clicked
+01-09-2024 04-28-19 Dropdown - Business Unit is clicked
+01-09-2024 04-28-19 Unit Name is clicked
+01-09-2024 04-28-20 Dropdown - Segment is clicked
+01-09-2024 04-28-24 Segment is clicked
+01-09-2024 04-28-25 Dropdown - Pipeline is clicked
+01-09-2024 04-28-29 Pipeline is clicked
+01-09-2024 04-28-30 Dropdown - ValveSelection is clicked
+01-09-2024 04-28-30 ValveSelection is clicked
+01-09-2024 04-28-31 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature***************
+01-09-2024 04-28-44 Application successfully.
+01-09-2024 04-28-48 Button - OK is clicked
+01-09-2024 04-28-48 Button - CrossIconAboutTool is clicked
+01-09-2024 04-28-50 Option - Locator tool is clicked
+01-09-2024 04-28-51 List Search options is clicked
+01-09-2024 04-28-51 Item Search option is clicked
+01-09-2024 04-28-52 Dropdown - Business Unit is clicked
+01-09-2024 04-28-52 Unit Name is clicked
+01-09-2024 04-28-57 Dropdown - Segment is clicked
+01-09-2024 04-28-58 Segment is clicked
+01-09-2024 04-29-00 Dropdown - Pipeline is clicked
+01-09-2024 04-29-00 Pipeline is clicked
+01-09-2024 04-29-01 Button - Locate is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Acres unit with measurement tool option Area***************
+01-09-2024 04-29-17 Application successfully.
+01-09-2024 04-29-21 Button - OK is clicked
+01-09-2024 04-29-21 Button - CrossIconAboutTool is clicked
+01-09-2024 04-29-22 Option - Measurement tool is clicked
+01-09-2024 04-29-24 Option - Area is clicked
+01-09-2024 04-29-24 DropDown - Unit is clicked
+01-09-2024 04-29-24 Unit Name is clicked
+01-09-2024 04-29-24 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Miles unit with measurement tool option Area***************
+01-09-2024 04-29-41 Application successfully.
+01-09-2024 04-29-45 Button - OK is clicked
+01-09-2024 04-29-45 Button - CrossIconAboutTool is clicked
+01-09-2024 04-29-46 Option - Measurement tool is clicked
+01-09-2024 04-29-47 Option - Area is clicked
+01-09-2024 04-29-47 DropDown - Unit is clicked
+01-09-2024 04-29-48 Unit Name is clicked
+01-09-2024 04-29-48 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Kilometers unit with measurement tool option Area***************
+01-09-2024 04-30-07 Application successfully.
+01-09-2024 04-30-10 Button - OK is clicked
+01-09-2024 04-30-10 Button - CrossIconAboutTool is clicked
+01-09-2024 04-30-12 Option - Measurement tool is clicked
+01-09-2024 04-30-12 Option - Area is clicked
+01-09-2024 04-30-12 DropDown - Unit is clicked
+01-09-2024 04-30-13 Unit Name is clicked
+01-09-2024 04-30-13 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Hectares unit with measurement tool option Area***************
+01-09-2024 04-30-32 Application successfully.
+01-09-2024 04-30-35 Button - OK is clicked
+01-09-2024 04-30-36 Button - CrossIconAboutTool is clicked
+01-09-2024 04-30-37 Option - Measurement tool is clicked
+01-09-2024 04-30-38 Option - Area is clicked
+01-09-2024 04-30-38 DropDown - Unit is clicked
+01-09-2024 04-30-39 Unit Name is clicked
+01-09-2024 04-30-39 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Yards unit with measurement tool option Area***************
+01-09-2024 04-30-58 Application successfully.
+01-09-2024 04-31-01 Button - OK is clicked
+01-09-2024 04-31-01 Button - CrossIconAboutTool is clicked
+01-09-2024 04-31-04 Option - Measurement tool is clicked
+01-09-2024 04-31-05 Option - Area is clicked
+01-09-2024 04-31-05 DropDown - Unit is clicked
+01-09-2024 04-31-05 Unit Name is clicked
+01-09-2024 04-31-05 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Feet unit with measurement tool option Area***************
+01-09-2024 04-31-24 Application successfully.
+01-09-2024 04-31-27 Button - OK is clicked
+01-09-2024 04-31-27 Button - CrossIconAboutTool is clicked
+01-09-2024 04-31-30 Option - Measurement tool is clicked
+01-09-2024 04-31-31 Option - Area is clicked
+01-09-2024 04-31-31 DropDown - Unit is clicked
+01-09-2024 04-31-31 Unit Name is clicked
+01-09-2024 04-31-31 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Feet (US) unit with measurement tool option Area***************
+01-09-2024 04-31-50 Application successfully.
+01-09-2024 04-31-56 Button - OK is clicked
+01-09-2024 04-31-56 Button - CrossIconAboutTool is clicked
+01-09-2024 04-32-09 Option - Measurement tool is clicked
+01-09-2024 04-32-09 Option - Area is clicked
+01-09-2024 04-32-09 DropDown - Unit is clicked
+01-09-2024 04-32-09 Unit Name is clicked
+01-09-2024 04-32-10 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Sq Meters unit with measurement tool option Area***************
+01-09-2024 04-32-26 Application successfully.
+01-09-2024 04-32-29 Button - OK is clicked
+01-09-2024 04-32-30 Button - CrossIconAboutTool is clicked
+01-09-2024 04-32-31 Option - Measurement tool is clicked
+01-09-2024 04-32-32 Option - Area is clicked
+01-09-2024 04-32-32 DropDown - Unit is clicked
+01-09-2024 04-32-32 Unit Name is clicked
+01-09-2024 04-32-33 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Miles unit with measurement tool option Distance***************
+01-09-2024 04-32-52 Application successfully.
+01-09-2024 04-32-55 Button - OK is clicked
+01-09-2024 04-32-55 Button - CrossIconAboutTool is clicked
+01-09-2024 04-32-57 Option - Measurement tool is clicked
+01-09-2024 04-32-57 Option - Distance is clicked
+01-09-2024 04-32-58 DropDown - Unit is clicked
+01-09-2024 04-32-58 Unit Name is clicked
+01-09-2024 04-32-58 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Kilometers unit with measurement tool option Distance***************
+01-09-2024 04-33-12 Application successfully.
+01-09-2024 04-33-15 Button - OK is clicked
+01-09-2024 04-33-16 Button - CrossIconAboutTool is clicked
+01-09-2024 04-33-17 Option - Measurement tool is clicked
+01-09-2024 04-33-18 Option - Distance is clicked
+01-09-2024 04-33-18 DropDown - Unit is clicked
+01-09-2024 04-33-18 Unit Name is clicked
+01-09-2024 04-33-19 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Feet unit with measurement tool option Distance***************
+01-09-2024 04-33-30 Application successfully.
+01-09-2024 04-33-32 Button - OK is clicked
+01-09-2024 04-33-33 Button - CrossIconAboutTool is clicked
+01-09-2024 04-33-34 Option - Measurement tool is clicked
+01-09-2024 04-33-35 Option - Distance is clicked
+01-09-2024 04-33-35 DropDown - Unit is clicked
+01-09-2024 04-33-35 Unit Name is clicked
+01-09-2024 04-33-36 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Feet (US) unit with measurement tool option Distance***************
+01-09-2024 04-33-49 Application successfully.
+01-09-2024 04-33-52 Button - OK is clicked
+01-09-2024 04-33-52 Button - CrossIconAboutTool is clicked
+01-09-2024 04-33-54 Option - Measurement tool is clicked
+01-09-2024 04-33-55 Option - Distance is clicked
+01-09-2024 04-33-55 DropDown - Unit is clicked
+01-09-2024 04-33-55 Unit Name is clicked
+01-09-2024 04-33-55 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Meters unit with measurement tool option Distance***************
+01-09-2024 04-34-07 Application successfully.
+01-09-2024 04-34-10 Button - OK is clicked
+01-09-2024 04-34-10 Button - CrossIconAboutTool is clicked
+01-09-2024 04-34-12 Option - Measurement tool is clicked
+01-09-2024 04-34-12 Option - Distance is clicked
+01-09-2024 04-34-12 DropDown - Unit is clicked
+01-09-2024 04-34-13 Unit Name is clicked
+01-09-2024 04-34-13 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Yards unit with measurement tool option Distance***************
+01-09-2024 04-34-24 Application successfully.
+01-09-2024 04-34-27 Button - OK is clicked
+01-09-2024 04-34-28 Button - CrossIconAboutTool is clicked
+01-09-2024 04-34-29 Option - Measurement tool is clicked
+01-09-2024 04-34-30 Option - Distance is clicked
+01-09-2024 04-34-30 DropDown - Unit is clicked
+01-09-2024 04-34-30 Unit Name is clicked
+01-09-2024 04-34-31 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance in Nautical Miles unit with measurement tool option Distance***************
+01-09-2024 04-34-43 Application successfully.
+01-09-2024 04-34-46 Button - OK is clicked
+01-09-2024 04-34-47 Button - CrossIconAboutTool is clicked
+01-09-2024 04-34-48 Option - Measurement tool is clicked
+01-09-2024 04-34-49 Option - Distance is clicked
+01-09-2024 04-34-49 DropDown - Unit is clicked
+01-09-2024 04-34-50 Unit Name is clicked
+01-09-2024 04-34-50 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to measure distance by creating circle with measurement tool option Distance***************
+01-09-2024 04-35-03 Application successfully.
+01-09-2024 04-35-06 Button - OK is clicked
+01-09-2024 04-35-06 Button - CrossIconAboutTool is clicked
+01-09-2024 04-35-08 Option - Measurement tool is clicked
+01-09-2024 04-35-09 Option - Distance is clicked
+01-09-2024 04-35-09 DropDown - Unit is clicked
+01-09-2024 04-35-09 Unit Name is clicked
+01-09-2024 04-35-11 Click Checkbox to create circle is clicked
+01-09-2024 04-35-11 Point on map is clicked
+***************TestResults ForMeasurementTool - To verify that user should be able to plot point and measure lat and long with measurement tool option Location***************
+01-09-2024 04-35-26 Application successfully.
+01-09-2024 04-35-30 Button - OK is clicked
+01-09-2024 04-35-30 Button - CrossIconAboutTool is clicked
+01-09-2024 04-35-31 Option - Measurement tool is clicked
+01-09-2024 04-35-32 Option - Distance is clicked
+01-09-2024 04-35-32 Point on map is clicked
+***************TestResults ForPopupFunctions - To verify that user should be able to add the marker to the location from the popup option***************
+01-09-2024 04-35-44 Application successfully.
+01-09-2024 04-35-47 Button - OK is clicked
+01-09-2024 04-35-48 Button - CrossIconAboutTool is clicked
+01-09-2024 04-35-48 Search Box input field is populated with value : Uniontown
+01-09-2024 04-35-50 SearchIcon is clicked
+01-09-2024 04-36-01 SearchResult is clicked
+01-09-2024 04-36-01 Option popup is clicked
+01-09-2024 04-36-04 Option AddMarker is clicked
+***************TestResults ForTo verify that user should be able to open attribute table from popup window***************
+01-09-2024 04-36-16 Application successfully.
+01-09-2024 04-36-21 Button - OK is clicked
+01-09-2024 04-36-21 Button - CrossIconAboutTool is clicked
+01-09-2024 04-36-21 Search Box input field is populated with value : Uniontown
+01-09-2024 04-36-27 SearchIcon is clicked
+01-09-2024 04-36-35 SearchResult is clicked
+01-09-2024 04-36-35 Option popup is clicked
+01-09-2024 04-36-35 Option View In Attribute Table is clicked
+***************TestResults ForPrintTool - To verify that in Enbridge Landscape Template Layout user is able to print in all the different formats***************
+01-09-2024 04-36-48 Application successfully.
+01-09-2024 04-36-51 Button - OK is clicked
+01-09-2024 04-36-52 Button - CrossIconAboutTool is clicked
+01-09-2024 04-36-52 Option - Print tool is clicked
+01-09-2024 04-36-55 DropDown - Layout is clicked
+01-09-2024 04-36-55 DropDown Layout item is clicked
+01-09-2024 04-36-56 DropDown - Format is clicked
+01-09-2024 04-36-58 DropDown Layout item is clicked
+01-09-2024 04-37-39 Clear Print Button is clicked
+01-09-2024 04-37-41 DropDown - Format is clicked
+01-09-2024 04-37-42 DropDown Layout item is clicked
+01-09-2024 04-38-12 Clear Print Button is clicked
+01-09-2024 04-38-14 DropDown - Format is clicked
+01-09-2024 04-38-15 DropDown Layout item is clicked
+01-09-2024 04-38-45 Clear Print Button is clicked
+01-09-2024 04-38-46 DropDown - Format is clicked
+01-09-2024 04-38-48 DropDown Layout item is clicked
+01-09-2024 04-39-18 Clear Print Button is clicked
+01-09-2024 04-39-20 DropDown - Format is clicked
+01-09-2024 04-39-21 DropDown Layout item is clicked
+01-09-2024 04-39-52 Clear Print Button is clicked
+01-09-2024 04-39-53 DropDown - Format is clicked
+01-09-2024 04-39-55 DropDown Layout item is clicked
+01-09-2024 04-40-27 Clear Print Button is clicked
+01-09-2024 04-40-28 DropDown - Format is clicked
+01-09-2024 04-40-29 DropDown Layout item is clicked
+01-09-2024 04-41-00 Clear Print Button is clicked
+01-09-2024 04-41-01 DropDown - Format is clicked
+01-09-2024 04-41-03 DropDown Layout item is clicked
+01-09-2024 04-41-34 Clear Print Button is clicked
+***************TestResults ForPrintTool - To verify that in Enbridge Landscape Template Attributes Layout user is able to print in all the different formats***************
+01-09-2024 04-41-47 Application successfully.
+01-09-2024 04-41-52 Button - OK is clicked
+01-09-2024 04-41-52 Button - CrossIconAboutTool is clicked
+01-09-2024 04-41-53 Option - Print tool is clicked
+01-09-2024 04-42-01 DropDown - Layout is clicked
+01-09-2024 04-42-06 DropDown Layout item is clicked
+01-09-2024 04-42-06 Print Close Icon is clicked
+01-09-2024 04-42-07 Search Box input field is populated with value : Tennessee
+01-09-2024 04-42-09 SearchIcon is clicked
+01-09-2024 04-42-13 SearchResult is clicked
+01-09-2024 04-42-13 Clear Search is clicked
+01-09-2024 04-42-14 Option - Measurement tool is clicked
+01-09-2024 04-42-15 Attribute Button is clicked
+01-09-2024 04-42-16 Attribute Button is clicked
+01-09-2024 04-42-16 DropDown - Format is clicked
+01-09-2024 04-42-18 DropDown Layout item is clicked
+01-09-2024 04-43-07 Clear Print Button is clicked
+01-09-2024 04-43-08 DropDown - Format is clicked
+01-09-2024 04-43-09 DropDown Layout item is clicked
+01-09-2024 04-43-42 Clear Print Button is clicked
+01-09-2024 04-43-43 DropDown - Format is clicked
+01-09-2024 04-43-44 DropDown Layout item is clicked
+01-09-2024 04-44-16 Clear Print Button is clicked
+01-09-2024 04-44-17 DropDown - Format is clicked
+01-09-2024 04-44-18 DropDown Layout item is clicked
+01-09-2024 04-44-50 Clear Print Button is clicked
+01-09-2024 04-44-51 DropDown - Format is clicked
+01-09-2024 04-44-52 DropDown Layout item is clicked
+01-09-2024 04-45-24 Clear Print Button is clicked
+01-09-2024 04-45-25 DropDown - Format is clicked
+01-09-2024 04-45-27 DropDown Layout item is clicked
+01-09-2024 04-45-59 Clear Print Button is clicked
+01-09-2024 04-46-00 DropDown - Format is clicked
+01-09-2024 04-46-01 DropDown Layout item is clicked
+01-09-2024 04-46-33 Clear Print Button is clicked
+01-09-2024 04-46-35 DropDown - Format is clicked
+01-09-2024 04-46-36 DropDown Layout item is clicked
+01-09-2024 04-47-10 Clear Print Button is clicked
+***************TestResults ForPrintTool - To verify that in Enbridge Portrait Template Layout user is able to print in all the different formats***************
+01-09-2024 04-47-17 Application successfully.
+01-09-2024 04-47-22 Button - OK is clicked
+01-09-2024 04-47-23 Button - CrossIconAboutTool is clicked
+01-09-2024 04-47-23 Option - Print tool is clicked
+01-09-2024 04-47-31 DropDown - Layout is clicked
+01-09-2024 04-47-33 DropDown Layout item is clicked
+01-09-2024 04-47-35 DropDown - Format is clicked
+01-09-2024 04-47-37 DropDown Layout item is clicked
+01-09-2024 04-48-17 Clear Print Button is clicked
+01-09-2024 04-48-18 DropDown - Format is clicked
+01-09-2024 04-48-19 DropDown Layout item is clicked
+01-09-2024 04-48-52 Clear Print Button is clicked
+01-09-2024 04-48-53 DropDown - Format is clicked
+01-09-2024 04-48-54 DropDown Layout item is clicked
+01-09-2024 04-49-27 Clear Print Button is clicked
+01-09-2024 04-49-28 DropDown - Format is clicked
+01-09-2024 04-49-29 DropDown Layout item is clicked
+01-09-2024 04-50-02 Clear Print Button is clicked
+01-09-2024 04-50-03 DropDown - Format is clicked
+01-09-2024 04-50-04 DropDown Layout item is clicked
+01-09-2024 04-50-37 Clear Print Button is clicked
+01-09-2024 04-50-38 DropDown - Format is clicked
+01-09-2024 04-50-40 DropDown Layout item is clicked
+01-09-2024 04-51-13 Clear Print Button is clicked
+01-09-2024 04-51-14 DropDown - Format is clicked
+01-09-2024 04-51-16 DropDown Layout item is clicked
+01-09-2024 04-51-49 Clear Print Button is clicked
+01-09-2024 04-51-50 DropDown - Format is clicked
+01-09-2024 04-51-51 DropDown Layout item is clicked
+01-09-2024 04-52-24 Clear Print Button is clicked
+***************TestResults ForPrintTool - To verify that in Enbridge Portrait Template Attributes Layout user is able to print in all the different formats***************
+01-09-2024 04-52-36 Application successfully.
+01-09-2024 04-52-39 Button - OK is clicked
+01-09-2024 04-52-39 Button - CrossIconAboutTool is clicked
+01-09-2024 04-52-39 Option - Print tool is clicked
+01-09-2024 04-52-41 DropDown - Layout is clicked
+***************TestResults ForPrintTool - To verify that in LP_ClassLocation_Layout_Static_PROD_10.4 Layout user is able to print in all the different formats***************
+01-09-2024 04-53-11 Application successfully.
+01-09-2024 04-53-14 Button - OK is clicked
+01-09-2024 04-53-14 Button - CrossIconAboutTool is clicked
+01-09-2024 04-53-14 Option - Print tool is clicked
+01-09-2024 04-53-16 DropDown - Layout is clicked
+***************TestResults ForProximityTool - To verify that user should be able to use proximity tool to locate address on map with Meters unit***************
+01-09-2024 04-53-44 Application successfully.
+01-09-2024 04-53-48 Button - OK is clicked
+01-09-2024 04-53-49 Button - CrossIconAboutTool is clicked
+01-09-2024 04-53-51 Option - Proximity tool is clicked
+01-09-2024 04-53-53 Address Field input field is populated with value : Uniontown, PA, USA
+01-09-2024 04-53-58 Address Result is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Select reactangle shape and draw on map where features are available to get the details on line***************
+01-09-2024 04-54-22 Application successfully.
+01-09-2024 04-54-26 Button - OK is clicked
+01-09-2024 04-54-26 Button - CrossIconAboutTool is clicked
+01-09-2024 04-54-28 Option - Proximity tool is clicked
+01-09-2024 04-54-29 Button - Select is clicked
+01-09-2024 04-54-31 Button - Select is clicked
+01-09-2024 04-54-45 Button - Back is clicked
+01-09-2024 04-54-53 Button - Back is clicked
+01-09-2024 04-55-00 Button - Back is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Select polygon shape and draw on map where features are available to get the details on line***************
+01-09-2024 04-55-10 Application successfully.
+01-09-2024 04-55-13 Button - OK is clicked
+01-09-2024 04-55-13 Button - CrossIconAboutTool is clicked
+01-09-2024 04-55-15 Option - Proximity tool is clicked
+01-09-2024 04-55-16 Button - Select is clicked
+01-09-2024 04-55-17 Button - Select is clicked
+01-09-2024 04-55-34 Button - Back is clicked
+01-09-2024 04-55-41 Button - Back is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Select circle shape and draw on map where features are available to get the details on line***************
+01-09-2024 04-55-50 Application successfully.
+01-09-2024 04-55-54 Button - OK is clicked
+01-09-2024 04-55-54 Button - CrossIconAboutTool is clicked
+01-09-2024 04-55-56 Option - Proximity tool is clicked
+01-09-2024 04-56-11 Button - Select is clicked
+01-09-2024 04-56-11 Button - Select is clicked
+01-09-2024 04-56-23 Button - Back is clicked
+01-09-2024 04-56-31 Button - Back is clicked
+01-09-2024 04-56-38 Button - Back is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Select zoom to option of layer after selecting shape by reactangle***************
+01-09-2024 04-56-46 Application successfully.
+01-09-2024 04-56-51 Button - OK is clicked
+01-09-2024 04-56-51 Button - CrossIconAboutTool is clicked
+01-09-2024 04-56-53 Option - Proximity tool is clicked
+01-09-2024 04-56-54 Button - Select is clicked
+01-09-2024 04-56-55 Button - Select is clicked
+01-09-2024 04-57-02 Layer option icon is clicked
+01-09-2024 04-57-06 Option Zoom to of layer is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Export layer data to CSV after selecting shape by reactangle***************
+01-09-2024 04-57-18 Application successfully.
+01-09-2024 04-57-23 Button - OK is clicked
+01-09-2024 04-57-24 Button - CrossIconAboutTool is clicked
+01-09-2024 04-57-26 Option - Proximity tool is clicked
+01-09-2024 04-57-31 Button - Select is clicked
+01-09-2024 04-57-31 Button - Select is clicked
+01-09-2024 04-57-36 Layer option icon is clicked
+01-09-2024 04-57-36 Option ExportToCSV of layer is clicked
+***************TestResults ForSelectTool - To verify that user should be able to Export layer data to feature collection after selecting shape by reactangle***************
+01-09-2024 04-57-51 Application successfully.
+01-09-2024 04-57-54 Button - OK is clicked
+01-09-2024 04-57-55 Button - CrossIconAboutTool is clicked
+01-09-2024 04-57-57 Option - Proximity tool is clicked
+01-09-2024 04-57-58 Button - Select is clicked
+01-09-2024 04-57-58 Button - Select is clicked
+01-09-2024 04-58-04 Layer option icon is clicked
+01-09-2024 04-58-09 Option ExportToCSV of layer is clicked
+***************TestResults ForSelectTool - To verify that user should be Export layer data to GeoJSON after selecting shape by reactangle***************
+01-09-2024 04-58-22 Application successfully.
+01-09-2024 04-58-24 Button - OK is clicked
+01-09-2024 04-58-25 Button - CrossIconAboutTool is clicked
+01-09-2024 04-58-26 Option - Proximity tool is clicked
+01-09-2024 04-58-28 Button - Select is clicked
+01-09-2024 04-58-28 Button - Select is clicked
+01-09-2024 04-58-30 Layer option icon is clicked
+01-09-2024 04-58-30 Option ExportToCSV of layer is clicked
+***************TestResults ForSelectTool - To verify that user should be create new layer from layer options after selecting shape by reactangle***************
+01-09-2024 04-58-44 Application successfully.
+01-09-2024 04-58-48 Button - OK is clicked
+01-09-2024 04-58-49 Button - CrossIconAboutTool is clicked
+01-09-2024 04-58-56 Option - Proximity tool is clicked
+01-09-2024 04-59-01 Button - Select is clicked
+01-09-2024 04-59-01 Button - Select is clicked
+01-09-2024 04-59-03 Layer option icon is clicked
+01-09-2024 04-59-04 Option Create Layer is clicked
+01-09-2024 04-59-04 Layer Name input field is populated with value : Test Layer
+01-09-2024 04-59-05 Button - OK is clicked
+***************TestResults ForSelectTool - To verify that user should be save the content of layer after selecting shape by reactangle***************
+01-09-2024 04-59-18 Application successfully.
+01-09-2024 04-59-22 Button - OK is clicked
+01-09-2024 04-59-22 Button - CrossIconAboutTool is clicked
+01-09-2024 04-59-23 Option - Proximity tool is clicked
+01-09-2024 04-59-25 Button - Select is clicked
+01-09-2024 04-59-25 Button - Select is clicked
+01-09-2024 04-59-29 Layer option icon is clicked
+01-09-2024 04-59-32 Option SaveToMyContent is clicked
+01-09-2024 04-59-33 Layer Name input field is populated with value : My Content
+01-09-2024 04-59-33 Button - OK is clicked
+***************TestResults ForSelectTool - User should be view the layer data in attribute table after selecting shape by reactangle***************
+01-09-2024 04-59-46 Application successfully.
+01-09-2024 04-59-49 Button - OK is clicked
+01-09-2024 04-59-49 Button - CrossIconAboutTool is clicked
+01-09-2024 04-59-51 Option - Proximity tool is clicked
+01-09-2024 04-59-52 Button - Select is clicked
+01-09-2024 04-59-52 Button - Select is clicked
+01-09-2024 04-59-54 Layer option icon is clicked
+01-09-2024 04-59-54 Option View In Attribute Table is clicked
+***************TestResults ForSelectTool - To verify that user should be view the statistics of layer data after selecting shape by reactangle***************
+01-09-2024 05-00-14 Application successfully.
+01-09-2024 05-00-19 Button - OK is clicked
+01-09-2024 05-00-19 Button - CrossIconAboutTool is clicked
+01-09-2024 05-00-24 Option - Proximity tool is clicked
+01-09-2024 05-00-29 Button - Select is clicked
+01-09-2024 05-00-31 Button - Select is clicked
+01-09-2024 05-00-35 Layer option icon is clicked
+01-09-2024 05-00-35 Option View In Attribute Table is clicked
+01-09-2024 05-00-36 Field drop down is clicked
+***************TestResults ForSelectTool - To verify that user should be clear the selection after selecting shape by reactangle***************
+01-09-2024 05-00-50 Application successfully.
+01-09-2024 05-00-55 Button - OK is clicked
+01-09-2024 05-00-55 Button - CrossIconAboutTool is clicked
+01-09-2024 05-00-57 Option - Proximity tool is clicked
+01-09-2024 05-00-58 Button - Select is clicked
+01-09-2024 05-00-58 Button - Select is clicked
+01-09-2024 05-01-00 Layer option icon is clicked
+01-09-2024 05-01-00 Option View In Attribute Table is clicked
+***************TestResults ForShowStationTool - To verify that user should be able to see the station details using show station tool***************
+01-09-2024 05-01-18 Application successfully.
+01-09-2024 05-01-22 Button - OK is clicked
+01-09-2024 05-01-22 Button - CrossIconAboutTool is clicked
+01-09-2024 05-01-24 Search Box input field is populated with value : Uniontown
+01-09-2024 05-01-34 SearchIcon is clicked
+01-09-2024 05-01-38 SearchResult is clicked
+01-09-2024 05-01-38 Clear Search is clicked
+01-09-2024 05-01-41 Button - Close is clicked
+01-09-2024 05-01-41 Option - Proximity tool is clicked
+01-09-2024 05-01-43 Button - Close is clicked
+01-09-2024 05-01-43 Plot - Line Feature is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+
+***************TestResults ForEnhancedDrawTool - To verify that user should be able to draw point feature on map***************
+27-05-2024 21-16-11 Application successfully.
+27-05-2024 21-16-16 Button - OK is clicked
+27-05-2024 21-16-17 Button - CrossIconAboutTool is clicked
+27-05-2024 21-16-19 Option - LayerListtool is clicked
+27-05-2024 21-16-20 Option Draw Point is clicked
+27-05-2024 21-16-21 Drawing Name input field is populated with value : Point
+27-05-2024 21-16-21 Drawing Description input field is populated with value : PointDescription
+27-05-2024 21-16-21 Drawing SymbolSize input field is populated with value : 25
+27-05-2024 21-16-22 Drawing Outlinewidth input field is populated with value : 5
+27-05-2024 21-16-22 Point on map is clicked
+27-05-2024 21-16-30 Button - Edit is clicked
+27-05-2024 21-16-32 Drawing Name input field is populated with value : EditedPoint
+27-05-2024 21-16-33 Drawing Description input field is populated with value : EditedPointDescription
+27-05-2024 21-16-35 Outline Width input field is populated with value : 4
+27-05-2024 21-16-36 Button - Save is clicked
+27-05-2024 21-16-41 Button - Edit is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

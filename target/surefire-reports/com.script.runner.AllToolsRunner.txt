@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.script.runner.AllToolsRunner
+-------------------------------------------------------------------------------
+Tests run: 78, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4,225.956 sec <<< FAILURE! - in com.script.runner.AllToolsRunner
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 17.451 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "ts" is null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 33.679 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 41.331 sec  <<< FAILURE!
+java.lang.AssertionError: null
+
+runScenario(com.script.runner.AllToolsRunner)  Time elapsed: 30.294 sec  <<< FAILURE!
+java.lang.AssertionError: null
+

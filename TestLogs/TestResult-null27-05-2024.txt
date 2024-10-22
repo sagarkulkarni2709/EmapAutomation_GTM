@@ -1,0 +1,11 @@
+
+***************TestResults ForTo verify that user should be able to open attribute table from popup window***************
+27-05-2024 13-22-48 Application successfully.
+27-05-2024 13-22-55 Button - OK is clicked
+27-05-2024 13-22-56 Button - CrossIconAboutTool is clicked
+27-05-2024 13-22-56 Search Box input field is populated with value : Uniontown
+27-05-2024 13-22-59 SearchIcon is clicked
+27-05-2024 13-23-05 SearchResult is clicked
+27-05-2024 13-23-07 Option popup is clicked
+27-05-2024 13-23-08 Option View In Attribute Table is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,100 @@
+
+***************TestResults ForLocatorTool - To verify that user should be able to use Segment Route serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-07-24 Application successfully.
+10-10-2024 16-07-27 Button - OK is clicked
+10-10-2024 16-07-28 Button - CrossIconAboutTool is clicked
+10-10-2024 16-07-31 Option - Locator tool is clicked
+10-10-2024 16-07-32 List Search options is clicked
+10-10-2024 16-07-33 Item Search option is clicked
+10-10-2024 16-07-34 Dropdown - Business Unit is clicked
+10-10-2024 16-07-34 Unit Name is clicked
+10-10-2024 16-07-37 Dropdown - Segment is clicked
+10-10-2024 16-07-39 Segment is clicked
+10-10-2024 16-07-40 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-07-58 Application successfully.
+10-10-2024 16-08-02 Button - OK is clicked
+10-10-2024 16-08-02 Button - CrossIconAboutTool is clicked
+10-10-2024 16-08-04 Option - Locator tool is clicked
+10-10-2024 16-08-06 List Search options is clicked
+10-10-2024 16-08-07 Item Search option is clicked
+10-10-2024 16-08-08 Dropdown - Business Unit is clicked
+10-10-2024 16-08-08 Unit Name is clicked
+10-10-2024 16-08-10 Dropdown - Segment is clicked
+10-10-2024 16-08-11 Segment is clicked
+10-10-2024 16-08-13 Dropdown - Pipeline is clicked
+10-10-2024 16-08-15 Pipeline is clicked
+10-10-2024 16-08-17 Dropdown - ValveSelection is clicked
+10-10-2024 16-08-18 ValveSelection is clicked
+10-10-2024 16-08-21 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Station Site serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-08-37 Application successfully.
+10-10-2024 16-08-41 Button - OK is clicked
+10-10-2024 16-08-41 Button - CrossIconAboutTool is clicked
+10-10-2024 16-08-43 Option - Locator tool is clicked
+10-10-2024 16-08-44 List Search options is clicked
+10-10-2024 16-08-44 Item Search option is clicked
+10-10-2024 16-08-46 Dropdown - Business Unit is clicked
+10-10-2024 16-08-46 Unit Name is clicked
+10-10-2024 16-08-47 Dropdown - Site is clicked
+10-10-2024 16-08-47 ValveSelection is clicked
+10-10-2024 16-08-47 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Meter Station serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-09-04 Application successfully.
+10-10-2024 16-09-07 Button - OK is clicked
+10-10-2024 16-09-08 Button - CrossIconAboutTool is clicked
+10-10-2024 16-09-10 Option - Locator tool is clicked
+10-10-2024 16-09-11 List Search options is clicked
+10-10-2024 16-09-11 Item Search option is clicked
+10-10-2024 16-09-13 Dropdown - Business Unit is clicked
+10-10-2024 16-09-14 Unit Name is clicked
+10-10-2024 16-09-16 Dropdown - Segment is clicked
+10-10-2024 16-09-17 Segment is clicked
+10-10-2024 16-09-20 Dropdown - Pipeline is clicked
+10-10-2024 16-09-21 Pipeline is clicked
+10-10-2024 16-09-23 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Site serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-09-40 Application successfully.
+10-10-2024 16-09-44 Button - OK is clicked
+10-10-2024 16-09-44 Button - CrossIconAboutTool is clicked
+10-10-2024 16-09-48 Option - Locator tool is clicked
+10-10-2024 16-09-49 List Search options is clicked
+10-10-2024 16-09-50 Item Search option is clicked
+10-10-2024 16-09-52 Dropdown - Business Unit is clicked
+10-10-2024 16-09-54 Unit Name is clicked
+10-10-2024 16-09-58 Dropdown - Segment is clicked
+10-10-2024 16-10-00 Segment is clicked
+10-10-2024 16-10-03 Dropdown - Pipeline is clicked
+10-10-2024 16-10-06 Pipeline is clicked
+10-10-2024 16-10-07 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use Valve Section serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-10-23 Application successfully.
+10-10-2024 16-10-26 Button - OK is clicked
+10-10-2024 16-10-27 Button - CrossIconAboutTool is clicked
+10-10-2024 16-10-28 Option - Locator tool is clicked
+10-10-2024 16-10-29 List Search options is clicked
+10-10-2024 16-10-30 Item Search option is clicked
+10-10-2024 16-10-31 Dropdown - Business Unit is clicked
+10-10-2024 16-10-32 Unit Name is clicked
+10-10-2024 16-10-35 Dropdown - Segment is clicked
+10-10-2024 16-10-36 Segment is clicked
+10-10-2024 16-10-38 Dropdown - Pipeline is clicked
+10-10-2024 16-10-42 Pipeline is clicked
+10-10-2024 16-10-44 Dropdown - ValveSelection is clicked
+10-10-2024 16-10-45 ValveSelection is clicked
+10-10-2024 16-10-47 Button - Locate is clicked
+***************TestResults ForLocatorTool - To verify that user should be able to use HCA serach option to locate an asset, location on the pipeline, or Compliance feature***************
+10-10-2024 16-11-10 Application successfully.
+10-10-2024 16-11-13 Button - OK is clicked
+10-10-2024 16-11-14 Button - CrossIconAboutTool is clicked
+10-10-2024 16-11-16 Option - Locator tool is clicked
+10-10-2024 16-11-16 List Search options is clicked
+10-10-2024 16-11-17 Item Search option is clicked
+10-10-2024 16-11-19 Dropdown - Business Unit is clicked
+10-10-2024 16-11-19 Unit Name is clicked
+10-10-2024 16-11-22 Dropdown - Segment is clicked
+10-10-2024 16-11-23 Segment is clicked
+10-10-2024 16-11-26 Dropdown - Pipeline is clicked
+10-10-2024 16-11-27 Pipeline is clicked
+10-10-2024 16-11-29 Button - Locate is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------

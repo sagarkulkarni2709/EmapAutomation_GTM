@@ -1,0 +1,51 @@
+
+***************TestResults Fornull***************
+16-07-2024 13-02-53 Application successfully.
+16-07-2024 13-02-57 Button - OK is clicked
+16-07-2024 13-02-57 Button - CrossIconAboutTool is clicked
+16-07-2024 13-02-58 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456
+16-07-2024 13-03-01 SearchIcon is clicked
+16-07-2024 13-03-01 SearchResult is clicked
+16-07-2024 13-03-01 Clear Search is clicked
+16-07-2024 13-03-04 Option - LayerListtool is clicked
+16-07-2024 13-03-04 Button - Add is clicked
+16-07-2024 13-03-05 Bookmark Name input field is populated with value : Test
+16-07-2024 13-03-05 CrossIcon - Bookmark tool is clicked
+16-07-2024 13-03-06 Home button is clicked
+16-07-2024 13-03-08 Option - LayerONOFF is clicked
+16-07-2024 13-03-13 Option - Bookmark Tool is clicked
+16-07-2024 13-03-16 Title bookmark is clicked
+16-07-2024 13-03-17 CrossIcon - Bookmark tool is clicked
+16-07-2024 13-03-20 Option - LayerONOFF is clicked
+***************TestResults Fornull***************
+16-07-2024 13-03-34 Application successfully.
+16-07-2024 13-03-37 Button - OK is clicked
+16-07-2024 13-03-37 Button - CrossIconAboutTool is clicked
+16-07-2024 13-03-38 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456
+16-07-2024 13-03-40 SearchIcon is clicked
+16-07-2024 13-03-41 SearchResult is clicked
+16-07-2024 13-03-45 Clear Search is clicked
+16-07-2024 13-03-47 Option - LayerListtool is clicked
+16-07-2024 13-03-48 Button - Add is clicked
+16-07-2024 13-03-48 Bookmark Name input field is populated with value : Test
+16-07-2024 13-03-48 CrossIcon - Bookmark tool is clicked
+16-07-2024 13-03-50 Option - Bookmark Tool is clicked
+16-07-2024 13-04-00 Delete button is clicked
+16-07-2024 13-04-05 CrossIcon - Bookmark tool is clicked
+***************TestResults Fornull***************
+16-07-2024 13-04-16 Application successfully.
+16-07-2024 13-04-20 Button - OK is clicked
+16-07-2024 13-04-20 Button - CrossIconAboutTool is clicked
+16-07-2024 13-04-22 Search Box input field is populated with value : 1529 Connellsville Rd, Lemont Furnace, Pennsylvania, 15456
+16-07-2024 13-04-24 SearchIcon is clicked
+16-07-2024 13-04-25 SearchResult is clicked
+16-07-2024 13-04-25 Clear Search is clicked
+16-07-2024 13-04-28 Option - LayerListtool is clicked
+16-07-2024 13-04-29 Button - Add is clicked
+16-07-2024 13-04-29 Bookmark Name input field is populated with value : Test
+16-07-2024 13-04-30 CrossIcon - Bookmark tool is clicked
+16-07-2024 13-04-31 Option - Bookmark Tool is clicked
+16-07-2024 13-04-32 Bookmark Name input field is populated with value : Test1
+16-07-2024 13-04-33 CrossIcon - Bookmark tool is clicked
+16-07-2024 13-04-34 Option - Bookmark Tool is clicked
+------------------------------------------------------------------------------------------------------------------------------------------------------
